@@ -660,8 +660,6 @@ def main_apv():
     except IOError:
         os.system('clear')
         print(logo)
-        ------------WELCOME--------------
-        
         myid = uuid.uuid4().hex[:30]
         
         kok = open('/sdcard/.CENT.key.txt', 'w')
