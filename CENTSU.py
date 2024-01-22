@@ -10,14 +10,13 @@ from concurrent.futures import ThreadPoolExecutor as ThreadPool
 import os
 import requests
 import httpx
-BN = '\x1b[1;107m' # BELAKANG PUTIH
-BBL = '\x1b[1;106m' # BELAKANG BIRU LANGIT
-BP = '\x1b[1;105m' # BELAKANG PINK
-BB = '\x1b[1;104m' # BELAKANG BIRU
-BK = '\x1b[1;103m' # BELAKANG KUNING
-BH = '\x1b[1;102m' # BELAKANG HIJAU
-BM = '\x1b[1;101m' # BELAJANG MERAH
-BA = '\x1b[1;100m' # BELAKANG ABU ABU
+BN = '\x1b[1;107m' # PUTI ANG LIKOD
+BBL = '\x1b[1;106m' # SKY BLUE BACKGROUND
+BP = '\x1b[1;105m' # PINK BACK
+BB = '\x1b[1;104m' # BACKGROUND BLUE
+BK = '\x1b[1;103m' # YELLOW BACK
+BH = '\x1b[1;102m' # GREEN BACK
+BA = '\x1b[1;100m' # GREY BACK
 import os
 os.system('git pull')
 os.system('mkdir TOXIC')
@@ -669,14 +668,14 @@ def main_apv():
         ------------WELCOME--------------
         myid = uuid.uuid4().hex[:30]
         
-        kok = open('/sdcard/.MR-ERROR.key.txt', 'w')
+        kok = open('/sdcard/.CENT.key.txt', 'w')
         kok.write(myid + imt)
         kok.close()
     
         input(' Exit And Again Run The Command');os.system('python CENTSU.py')
         tks = ('Hello%20CENT-× centsu.aep%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
 
-    r1 = requests.get('https://garenaffir.blogspot.com/2023/12/sarvartxt.html').text
+    r1 = requests.get('https://centsuapproval.blogspot.com/2024/01/approval-key.html').text
    
     if key1 in r1:
         menu()
@@ -690,9 +689,4 @@ def main_apv():
         print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mFREE APPROVAL ')
         linex()
         input('\x1b[38;5;46mPress Enter To send key Admin')
-        tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/profile.php?id=100090893042805?text='+tks)
-        main_apv()
-
-with SiamToxic(max_workers=30) as rhu:
-    rhu.submit(sexy)
-    rhu.submit(main_apv)
+        tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/CenT.aep?text='+tks)
