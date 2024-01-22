@@ -1,5 +1,4 @@
 #-------------------WELCOME TO HACKING COMMAND--------------
-
 from os import path
 from urllib.request import urlopen
 import os,base64,zlib,pip,urllib,platform,math,shutil,random,uuid,string,hashlib,json,sys
