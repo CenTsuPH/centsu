@@ -170,14 +170,14 @@ def menu():
        ## random_number()
     elif select =='3':
        os.system('''rm -rf FILE
-git clone --depth=1 https://github.com/Hannan-404/FILE
+git clone --depth= https://github.com/Hannan-404/FILE
 cd FILE
 python FILE.py''')
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
-        Toxic(allkey)
-       # os.system('xdg-open https://wa.me/+8801310067277')
+        CENT(allkey)
+       # os.system('https://www.facebook.com/CenT.aep')
 #---------------------[ USER - AGENT ] -------------------#
 def uaxxx():
     ua='[FBAN/FB4A;FBAV/43.0.0.5777;FBBV/5819082;[FBAN/FB4A;FBAV/17.0.0.20.36;FBBV/537534996;FBDM/{density=2.3,width=1080,height=2160};FBLC/de_DE;FBRV/560347499;FB_FW/2;FBCR/VTR;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Note 7 Lite;FBSV/7.0;FBOP/19;FBCA/arm64-v8a:armeabi;;]
