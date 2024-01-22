@@ -399,7 +399,7 @@ logo = ("""\033[1;32m
  
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;33m
   \033[1;32mAuther  : CENTSU
-  \033[1;33mYouTube : NOT FOUND
+  \033[1;33mYouTube : COMING SOON
   \033[1;32mFacebook : https://www.facebook.com/CenT.aep
    \033[1;33m Admin. : CENT
 ••••••••••••••••••••••••••••••••••••••••••••••••••\033[1;32m""")
