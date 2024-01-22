@@ -12,12 +12,10 @@ try:
 	import requests
 except ImportError:
 	os.system("pip install requests")
-
 try:
 	import concurrent.futures
 except ImportError:
 	os.system("pip install futures")
-
 import os
 import sys
 import time
@@ -76,7 +74,6 @@ def clear():
 	os.system('clear')
 def back():
 	login()
-
 ah="YUKIHIRA-"
 imt="-M4786=="
 ak=" SOMA-"
@@ -106,7 +103,6 @@ def login():
 def jalan(z):
 	for e in z + '\n':
 		sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)
-
 def Public():
 	clear()
 	print(logo)
@@ -171,7 +167,6 @@ def File():
 				setting()
 			except IOError:
 				exit("\n [!] file %s not found"%(fileX))
-
 def setting():
 	hu = ("2")
 	if hu in ['1','01']:
