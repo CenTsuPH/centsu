@@ -544,7 +544,8 @@ class Main:
 		except Exception as e:exit(str(e))
 
 	def api(self, uid, pwx):
-		ua = ([FBAN/FB4A;FBAV/80.0.0.1241;FBBV/8665646[FBAN/FB4A;FBAV/52.0.0.28.31;FBBV/535299723;FBDM/{density=2.6,width=1080,height=2280};FBLC/es_VE;FBRV/571193170;FBCR/Vodafone UK;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Hot 9 Play;FBSV/4.4.1;FBBK/1;FBOP/1;FBCA/armv8-a;])
+		rua = random.choice([FBAN/FB4A;FBAV/80.0.0.1241;FBBV/8665646[FBAN/FB4A;FBAV/52.0.0.28.31;FBBV/535299723;FBDM/{density=2.6,width=1080,height=2280};FBLC/es_VE;FBRV/571193170;FBCR/Vodafone UK;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Hot 9 Play;FBSV/4.4.1;FBBK/1;FBOP/1;FBCA/armv8-a;][FBAN/FB4A;FBAV/43.0.0.5777;FBBV/5819082;[FBAN/FB4A;FBAV/17.0.0.20.36;FBBV/537534996;FBDM/{density=2.3,width=1080,height=2160};FBLC/de_DE;FBRV/560347499;FB_FW/2;FBCR/VTR;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Note 7 Lite;FBSV/7.0;FBOP/19;FBCA/arm64-v8a:armeabi;;]
+[FBAN/FB4A;FBAV/34.0.0.9784;FBBV/5466593;[FBAN/FB4A;FBAV/62.0.0.26.13;FBBV/520161431;FBDM/{density=2.2,width=720,height=1560};FBLC/ar_AE;FBRV/572168036;FBCR/Tele Birhan Ethiopia;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Hot 9 Pro;FBSV/4.4;FBOP/1;FBCA/arm64-v8a:;][FBAN/FB4A;FBAV/50.0.0.1093;FBBV/6578916[FBAN/FB4A;FBAV/68.0.0.12.67;FBBV/529680487;FBDM/{density=2.4,width=720,height=1440};FBLC/ar_JO;FBRV/577426820;FBCR/Vodacom South Africa;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Zero 6;FBSV/10.0;FBBK/1;FBOP/1;FBCA/armv7-a;])
 		sys.stdout.write(
 			"\r [ CENT ] %s/%s -> Ok:-%s - Cp:-%s "%(self.loop, len(self.id), len(self.cp), len(self.ok))
 		); sys.stdout.flush()
