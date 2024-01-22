@@ -661,27 +661,3 @@ def main_apv():
         os.system('clear')
         print(logo)
         ------------WELCOME--------------
-        myid = uuid.uuid4().hex[:30]
-        
-        kok = open('/sdcard/.CENT.key.txt', 'w')
-        kok.write(myid + imt)
-        kok.close()
-    
-        input(' Exit And Again Run The Command');os.system('python CENTSU.py')
-        tks = ('Hello%20CENT-× centsu.aep%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+APPROVAL KEY);os.system('am start FB.me/+?text='+tks)
-
-    r1 = requests.get('https://centsuapproval.blogspot.com/2024/01/approval-key.html').text
-   
-    if APPROVAL KEY in r1:
-        menu()
-    else:
-        os.system('clear')
-        print(logo)
-        print('                \033[1;41m\033[1;97mWELCOME TO TOXIC WORLD\033[;0m\033[1;93m              ')
-        linex()
-        print('\x1b[38;5;46mKey : \x1b[38;5;46m' + key1)
-        linex() 
-        print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mFREE APPROVAL ')
-        linex()
-        input('\x1b[38;5;46mPress Enter To send key Admin')
-        tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+APPROVAL KEY);os.system('am start https://www.facebook.com/CenT.aep?text='+tks)
