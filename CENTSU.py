@@ -168,9 +168,8 @@ def menu():
         exit(' Coming soon ')
   ###  elif select =='2':
        ## random_number()
-    elif select =='3':
-       os.system('''rm -rf FILE git clone https://github.com/Hannan-404/FILE cd FILE 
-python FILE.py''')
+    elif select =='3': 
+        exit(' Coming soon ')
     else:
         print('\n Select Wrong option ... ')
         time.sleep(2)
