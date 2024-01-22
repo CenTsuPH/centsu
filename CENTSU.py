@@ -668,11 +668,11 @@ def main_apv():
         kok.close()
     
         input(' Exit And Again Run The Command');os.system('python CENTSU.py')
-        tks = ('Hello%20CENT-× centsu.aep%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start FB.me/+?text='+tks)
+        tks = ('Hello%20CENT-× centsu.aep%20Owner%20Kashif%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+APPROVAL KEY);os.system('am start FB.me/+?text='+tks)
 
     r1 = requests.get('https://centsuapproval.blogspot.com/2024/01/approval-key.html').text
    
-    if key1 in r1:
+    if APPROVAL KEY in r1:
         menu()
     else:
         os.system('clear')
@@ -684,4 +684,4 @@ def main_apv():
         print(f'\x1b[38;5;196m[\x1b[1;97m=\x1b[38;5;196m] \x1b[38;5;46mFREE APPROVAL ')
         linex()
         input('\x1b[38;5;46mPress Enter To send key Admin')
-        tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+key1);os.system('am start https://www.facebook.com/CenT.aep?text='+tks)
+        tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+APPROVAL KEY);os.system('am start https://www.facebook.com/CenT.aep?text='+tks)
