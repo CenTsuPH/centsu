@@ -130,12 +130,14 @@ R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-logo = (f'''\x1b[1;32m 
-\x1b[38;5;48mMM    MM RRRRRR         EEEEEEE RRRRRR  RRRRRR   OOOOO  RRRRRR  
-\x1b[38;5;49mMMM  MMM RR   RR        EE      RR   RR RR   RR OO   OO RR   RR 
-\x1b[38;5;50mMM MM MM RRRRRR  _____  EEEEE   RRRRRR  RRRRRR  OO   OO RRRRRR  
-\x1b[38;5;51mMM    MM RR  RR         EE      RR  RR  RR  RR  OO   OO RR  RR  
-\x1b[38;5;51mMM    MM RR   RR        EEEEEEE RR   RR RR   RR  OOOO0  RR   RR \x1b[38;5;46m
+logo = ("""\033[1;32m                                                                                         
+ \033[1;32m   ▄▄█▀▀▀█▄████▀▀▀███▀███▄   ▀███▀██▀▀██▀▀███▄█▀▀▀█▄████▀   ▀███▀  
+\033[1;32m   ██▀     ▀█ ██    ▀█  ███▄    █ █▀   ██   ▀███    ▀███       █  
+\033[1;32m  ██▀       ▀ ██   █    █ ███   █      ██    ▀███▄    ██       █    
+\033[1;32m  ██          ██████    █  ▀██▄ █      ██      ▀█████▄██       █  
+\033[1;32m  ██▄         ██   █  ▄ █   ▀██▄█      ██    ▄     ▀████       █  
+\033[1;32m  ▀██▄     ▄▀ ██     ▄█ █     ███      ██    ██     ████▄     ▄█  
+\033[1;32m    ▀▀█████▀▄█████████████▄    ██    ▄████▄  █▀█████▀  ▀██████▀▀
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 def linex():
         print('\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
