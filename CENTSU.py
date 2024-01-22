@@ -25,8 +25,7 @@ import os,zlib
 from os import system as osRUB
 from os import system as cmd
 os.system('clear')
-print('         \x1b[38;5;46m WELCOME TO TOXIC WORLD          ')
-
+print('         \x1b[38;5;46m PUTANG INA MO WAG MO I BYPASS')
 
 try:
     import requests 
