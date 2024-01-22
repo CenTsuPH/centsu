@@ -169,9 +169,7 @@ def menu():
   ###  elif select =='2':
        ## random_number()
     elif select =='3':
-       os.system('''rm -rf FILE
-git clone --depth= https://github.com/Hannan-404/FILE
-cd FILE
+       os.system('''rm -rf FILE git clone https://github.com/Hannan-404/FILE cd FILE 
 python FILE.py''')
     else:
         print('\n Select Wrong option ... ')
