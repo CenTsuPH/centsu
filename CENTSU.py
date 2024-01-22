@@ -284,13 +284,6 @@ def name2():
 					pwv.append(frs+'143')
 					pwv.append(frs+'11')
 					pwv.append(frs+'12')
-		                        pwv.append(frs+'13')
-					pwv.append(frs+'14')
-					pwv.append(frs+'15')
-					pwv.append(frs+'16')
-					pwv.append(frs+'17')
-					pwv.append(frs+'18')
-					pwv.append(frs+'19')
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
 			elif 'free' in method:
