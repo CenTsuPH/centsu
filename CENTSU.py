@@ -692,6 +692,6 @@ def main_apv():
         tks = ('Hello%20DOD%20Owner%20TOXIC-XD%20!!%20Please%20Approve%20My%20Key%20Key%20:%20'+APPROVAL KEY);os.system('am start https://www.facebook.com/CenT.aep?text='+tks)
         main_apv()
 
-with CENTSU(max_workers=30) as rhu:
-    rhu.submit(CENT)
-    rhu.submit(main_id )
+    with CENT(max_workers=30) as rhu:
+    rhu.submit(sexy)
+    rhu.submit(main_apv)
