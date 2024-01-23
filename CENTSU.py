@@ -140,7 +140,7 @@ logo = (f'''\x1b[1;92m
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mOWONER     \x1b[1;97m● \033[38;5;46mCENTSU
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mFacebook   \x1b[1;97m● \033[38;5;46mCENT
-\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mGuthub   \x1b[1;97m  ● \033[38;5;46mCenTsuPH
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mGithub   \x1b[1;97m  ● \033[38;5;46mCenTsuPH
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46m[BROTHER]  \x1b[1;97m● \x1b[1;97mV/.01
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mTools type \x1b[1;97m● \033[38;5;46mFREE\x1b[38;5;196m┼\033[1;41m\033[1;97m\x1b[38;5;196m\033[47mFILE & RANDOM\x1b[0m\x1b[38;5;196m┼
 \x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46m[BROTHER]  \x1b[1;97m● \033[38;5;196m[\x1b[1;97JAKE-WU\033[38;5;196m]
@@ -157,7 +157,7 @@ def result(OKs,cps):
         print(' \x1b[1;92m\x1b[1;91m\x1b[1;96m\x1b[0mThe Cloneing Has Been Complete\x1b[1;96m\x1b[1;91m\x1b[1;92m\x1b[0m')
         print(' TOTAL OK: \x1b[1;92m%s' % str(len(oks)))
         print(' TOTAL CP: \x1b[1;96m%s' % str(len(cps)))
-        input("Press enter to back Toxic Menu ")
+        input("Press enter to back CENT Menu ")
         exit()
 os.system("xd-open https://www.facebook.com/CenT.aep")
 def menu():   
