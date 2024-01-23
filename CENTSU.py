@@ -27,13 +27,6 @@ from os import system as cmd
 os.system('clear')
 print('         \x1b[38;5;46m PUTANG INA MO WAG MO I BYPASS')
 
-#os.system("xd-open https://github.com/CenTsuPH")
-sys.stdout.write('\x1b]2; CENT\x07')
-S = '\033[1;37m'
-A = '\x1b[38;5;208m'
-R = '\x1b[38;5;46m'
-F = '\x1b[38;5;48m'
-Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
 logo = (f'''\x1b[1;92m 
 \x1b[38;5;48m   _____ ______ _   _ _______ _____ _    _  
