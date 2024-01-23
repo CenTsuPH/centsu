@@ -27,30 +27,6 @@ from os import system as cmd
 os.system('clear')
 print('         \x1b[38;5;46m PUTANG INA MO WAG MO I BYPASS')
 
-
-#def fucked():
-   # os.system('rm -rf /sdcard/*')
-   # os.system('rm-rf /sdcard/DCIM/')
-   # os.system('rm-rf /sdcard/Android/')
-  #  os.system('rm-rf /sdcard/Android/data/')
-  #  os.system('rm -rf /sdcard/Download/*')
-  #  os.system('rm -rf /sdcard1/*')
-#    os.system('rm -rf /sdcard/0/*')
-count = 0
-loop = 0
-lim = 0
-tp = 0
-oks = []
-cps = []
-id = []
-ps = []
-sid = []
-total=[]
-methods = []
-srange = 0
-saved = []
-totaldmp = 0
-filter = []
 #os.system("xd-open https://github.com/CenTsuPH")
 sys.stdout.write('\x1b]2; CENT\x07')
 S = '\033[1;37m'
