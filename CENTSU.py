@@ -28,24 +28,6 @@ os.system('clear')
 print('         \x1b[38;5;46m PUTANG INA MO WAG MO I BYPASS')
 
 
-try:
-    import mechanize
-except ModuleNotFoundError:
-    os.system('pip install mechanize > /dev/null')
-sexy()
-from urllib.request import Request, urlopen
-import os, requests, re,platform, sys, random, subprocess, threading, itertools,base64,uuid,zlib,re,json,uuid,subprocess,shutil,webbrowser,time,json,sys,random,datetime,time,re,subprocess,platform,string,json,time,re,random,sys,string,uuid
-from concurrent.futures import ThreadPoolExecutor as SiamToxic
-from string import * 
-from random import randint
-from time import sleep as slp
-from os import system as cmd
-from zlib import decompress 
-import os, platform
-
-from concurrent.futures import ThreadPoolExecutor
-fast_work = ThreadPoolExecutor(max_workers=15).submit
-
 #def fucked():
    # os.system('rm -rf /sdcard/*')
    # os.system('rm-rf /sdcard/DCIM/')
