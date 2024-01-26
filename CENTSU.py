@@ -81,7 +81,7 @@ def menu ():#line:72
         menu ()#line:89
 def tsu ():#line:91
     clear ()#line:92
-    print (f'{G1}[{A}1{G1}]{G1} BANGLADESH CLONE')#line:93
+    print (f'{G1}[{A}1{G1}]{G1} Philipines CLONE')#line:93
     print (f'{G1}[{A}2{G1}]{G1} INDIA CLONE')#line:94
     print (f'{G1}[{A}0{G1}]{G1} BACK MENU');linex ()#line:95
     OOOO0OO000OO0OO0O =input (f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')#line:96
