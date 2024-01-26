@@ -329,4 +329,3 @@ def M1(ids,names,psd):
         pass
 if __name__ == '__main__':
     menu()
-   
