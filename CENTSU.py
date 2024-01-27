@@ -53,7 +53,7 @@ def CEN():
 	density = random.choice(['2.0', '2.5', '3.0'])
 	width = random.choice(["720", "1080", "1280"])
 	height = random.choice(["720", "1080", "1280", "1440", "1920"])
-	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_US;FBRV/{str(fbrv)};FBCR/MTN-CG;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/ASUS_X01BDA;FBSV/9.0;FBOP/1;FBCA/arm64-v8a:]"
+	ua = f"[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};[FBAN/FB4A;FBAV/{str(facebook_version)};FBBV/{str(fbbv)};FBDM/{{density={density},width={width},height={height}}};FBLC/en_ph;FBRV/{str(fbrv)};FBCR/T-Mobile;FBPN;FBMF/Infinix;FBBD/Infinix;FBPN/com.facebook.katana;FBDV/Note 8;FBSV/4.1;FBBK/1;FBOP/1;FBCA/arm64-v8a:;]"
 	return ua
 #__________________LOGO____________#
 logo=(f"""
@@ -224,8 +224,8 @@ def randm(ids,psd):
             'generate_session_cookies':'1',
             'generate_machine_id':'1',
             'currently_logged_in_userid':'0',
-            'locale':'en_US',
-            'client_country_code':'US',
+            'locale':'en_ph',
+            'client_country_code':'ph',
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
@@ -290,8 +290,8 @@ def M1(ids,names,psd):
             'generate_session_cookies':'1',
             'generate_machine_id':'1',
             'currently_logged_in_userid':'0',
-            'locale':'en_US',
-            'client_country_code':'US',
+            'locale':'en_ph',
+            'client_country_code':'ph',
             'fb_api_req_friendly_name':'authenticate',
             'api_key':'62f8ce9f74b12f84c123cc23437a4a32',
             'access_token':'350685531728|62f8ce9f74b12f84c123cc23437a4a32'}
