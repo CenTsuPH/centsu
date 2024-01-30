@@ -213,4 +213,4 @@ def firex(ids,names,pasx,tl):
                     po = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
                     if 'session_key' in po:
                         uid = str(ids)
-                        pwx = str(pas)
+                        pwd = str(pas)
