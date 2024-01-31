@@ -77,7 +77,7 @@ P = '\033[95;1m'
 C = '\033[96;1m'
 tred = speed
 
-os.system('espeak -a 300 " WELCOME TO CENT TOOL FOR HACKING DONT BYPASS YOR FILE WILL BE GONE"')
+os.system('espeak -a 500 " WELCOME TO CENT TOOL FOR HACKING DONT BYPASS YOR FILE WILL BE GONE"')
 	
 logo= f'''
 {W}█████████  █████████  ███    ██  ███████████
