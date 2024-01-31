@@ -78,7 +78,7 @@ C = '\033[96;1m'
 tred = speed
 
 os.system('espeak -a 100 " WELCOME TO CENT TOOL FOR HACKING DONT BYPASS YOR FILE WILL BE GONE"')
-\033[1;93m===========================================================================================	
+
 logo= f'''
 {W}█████████  █████████  ███    ██  ███████████
 {W}██         ██         ██ █   ██      ███    
