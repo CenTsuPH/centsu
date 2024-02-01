@@ -165,8 +165,8 @@ os.system('clear')
 
 os.system('espeak -a 300 " Your,   Real,  Name,"')
 NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
-os.system('espeak -a 300 " pogi mo no"')
-os.system('xdg-open https://t.me/team_x_draco')
+os.system('espeak -a 300 " FUCK YOU BITCH "')
+os.system('xdg-open https://github.com/CenTsuPH')
 def banner():
 	os.system("clear")
 	print("""
