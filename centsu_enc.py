@@ -378,7 +378,7 @@ def login_lagi334():
         tok = re.search('accessToken="(.*?)"',str(roq.content)).group(1)
         tokenw = open(".token.txt", "w").write(tok)
         cokiew = open(".cok.txt", "w").write(cookies)
-      exit()
+      #exit()
     except Exception as e:
         os.system("rm -f .token.txt")
         os.system("rm -f .cok.txt")
