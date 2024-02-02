@@ -1,5 +1,3 @@
- ####@-----Import-----@####
-from msilib.schema import AppSearch
 import os,base64
 
 os.system('git pull -q;rm .rndm')
