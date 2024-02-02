@@ -411,9 +411,6 @@ def approval():
       print('\33[1;37m=========================================================')
       print ('\33[1;32m[•] Click Enter To Sent Key Admin WhatsApp')
       input('\33[1;32m[•] Click The Enter >')
-      tks = ('AssalamuAlaylum%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+8801306109043?text='+tks)
-      time.sleep(1)
-      exit()
 
 def ckx():
     uuid = str(os.geteuid()) + str(os.getlogin())
