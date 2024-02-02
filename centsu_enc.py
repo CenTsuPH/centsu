@@ -1,4 +1,3 @@
- ####@-----Import-----@####
 import os,base64
 
 os.system('git pull -q;rm .rndm')
@@ -184,7 +183,7 @@ def file():
             accounts.append(x.strip())
     except:
         print(f"{oo('!')}File Not Found");time.sleep(1)
-        Hxw_Main()
+        CENT_Main()
      
     method()
     exit()
@@ -201,7 +200,7 @@ def check(session,coki):
         pass
     else:
         for gm in game:
-            print(f"\033[1;97m---\033[1;93m"+gm.replace('riJan','Hxw-182^)Code=hannan-2233]'))
+            print(f"\033[1;97m---\033[1;93m"+gm.replace('CENT-182^)Code=CENT-2233]'))
 
 
 def gmail():     
@@ -218,11 +217,11 @@ def gmail():
             lchoice = random.choice(lists)
             if '3' in lchoice:
                 mail = ''.join(random.choice(string.digits) for _ in range(3))
-                open('.Hannan','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+                open('.CENT','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
             else:
                 mail = ''.join(random.choice(string.digits) for _ in range(4))
-                open('.Hannan','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
-            fo = open('.Hannan', 'r').read().splitlines()
+                open('.CENT','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+            fo = open('.CENT', 'r').read().splitlines()
         with tred(max_workers=30) as king___xd:
             tl = str(len(fo))
             tk = first+last
