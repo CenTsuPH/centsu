@@ -1,3 +1,4 @@
+#fuck by mr.mivi
 import pstats
 import zlib
 import requests,bs4,json,os,sys,random,datetime,time,re,getpass
@@ -403,8 +404,8 @@ def approval():
     else:
       print("\33[1;32m         𝐏𝐫𝐢𝐜𝐞 𝐋𝐢𝐬𝐭 :- ")
       print("\33[1;30m     ====================")
-      print("\33[1;36m  [•] 15 Days 250 tk ")
-      print("\33[1;36m  [•] 30 Days 500 tk ")
+      print("\33[1;36m  [•] 15 Days 50 ")
+      print("\33[1;36m  [•] 30 Days 100 tk ")
       print('\33[1;37m=========================================================')
       print("\33[1;37m[•] Your Key : \33[1;32m"+id)
       print('\33[1;37m=========================================================')
