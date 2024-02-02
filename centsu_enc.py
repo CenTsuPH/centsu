@@ -192,7 +192,7 @@ def file():
    
 ####@-----AppCheck-----@####
 def check(session,coki):
-    w=session.get("https://mbasic.facebook.com/settings/apps/tabbed/?tab=active",cookies={"cookie":coki}).text
+    w=session.get("'https://graph.facebook.com/me?fields=id,name&access_token='",cookies={"cookie":coki}).text
     sop = BeautifulSoup(w,"html.parser")
     x = sop.find("form",method="post")
     game = [i.text for i in x.find_all("h3")]
