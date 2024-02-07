@@ -1,4 +1,5 @@
 ###----------[ IMPORT MODULE ]----------###
+from operator import gt
 from os import path
 from os import system as Love_Tisha
 import requests,json,os,sys,random,datetime,time,re,platform,string,uuid,base64
