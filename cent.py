@@ -67,7 +67,7 @@ try:
 	
 except Exception as e:
 	print('[[\x1b[1;92m+\x1b[1;97m] [\x1b[1;96mCENT')
-prox=open('.prox.txt','r').read().splitlines()
+prox=open('.proxie.txt','r').read().splitlines()
 for xd in range(10000):
 	aa='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['6','7','8','9','10','11','12','13'])
