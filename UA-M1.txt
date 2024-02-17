@@ -1,0 +1,1 @@
+M1=[FBAN/FB4A;FBAV/120.47.98.53;FBBV/56809657;FBDM/{density=1.6,width=828,height=1976};FBLC/en_US;FBRV/59125416;FBCR/null;FBMF/lge;FBBD/lge;FBPN/com.facebook.katana;FBDV/LGE;FBSV/9.0;FBOP/1;FBCA/armeabi-v7a:armeabi;]=EXIT
