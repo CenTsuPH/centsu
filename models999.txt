@@ -3391,3 +3391,12 @@ GT-I9192I
 GT-I9195I
 GT-I5700
 GT-I5700L
+Motorola RAZR MAXX
+Motorola_i1
+Motorola_HS1
+Motorola MOT-XT681
+Motorola XT720
+Motorola Defy
+Motorola Titanium
+Motorola Electrify
+Motorola-XT502
