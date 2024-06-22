@@ -1,6 +1,6 @@
 UA - GEN UPDATED
 
-rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python UAgen_enc.py
+rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python Uagen_enc.py
 
 SIMS
 TM - SLOW CUM IDS
