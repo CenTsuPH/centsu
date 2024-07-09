@@ -1,6 +1,6 @@
 import os, sys
 os.system("git pull")
 try:
-    __import__("UAGEN.cpython-311.so")
+    __import__("UAGEN.c")
 except Exception as e:
     exit(str(e)) 
