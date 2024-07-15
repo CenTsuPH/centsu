@@ -1,6 +1,3 @@
-import os, sys
-os.system("git pull")
-try:
-    __import__("UAGEN")
-except Exception as e:
-    exit(str(e)) 
+import os
+os.system("xdg-open https://chat.whatsapp.com/D24huQnSnb44lXB5iUrJVG")
+import UA_ANZU
