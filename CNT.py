@@ -1,5 +1,5 @@
 import os, sys
 try:
-    import("solo")
+    __import__("solo").logo()
 except Exception as e:
     exit(str(e))
