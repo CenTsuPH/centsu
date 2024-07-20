@@ -1,4 +1,5 @@
-import os
-import so
-os.system("xdg-open https://www.facebook.com/CenT.aep?mibextid=ZbWKwL")
-import solo.c
+import os, sys
+try:
+    __import__("Solo")()
+except Exception as e:
+    exit(str(e))
