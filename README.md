@@ -1,4 +1,4 @@
-UA - GEN UPDATED
+FILE CLONE / UA - GEN UPDATED
 
 rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python Uagen_enc.py
 
@@ -10,4 +10,4 @@ ALL METHODS UPDATED
 
 AND SEND KEY: 
 
-rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python CNT_enc.py
+rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python enc.py
