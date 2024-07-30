@@ -1,2 +1,2 @@
 import os
-import CNT_enc
+import CNT
