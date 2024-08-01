@@ -8,4 +8,8 @@ ALL METHODS UPDATED
 
 AND SEND KEY: 
 
-rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python enc.py
+rm -rf centsu
+git clone https://github.com/CenTsuPH/centsu
+cd centsu 
+git pull
+python enc.py
