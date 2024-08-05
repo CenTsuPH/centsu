@@ -1,2 +1,2 @@
 import os
-import CNT
+import freecent
