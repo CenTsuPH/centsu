@@ -8,7 +8,7 @@
 <p align="center"><img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
  
 
-> A user agent is a relatively short bit of text that (attempts to) describe the Software/Browser (the "Agent") that is making the request to a website. Web browsers include the user agent string in the requests they make to websites. The User Agent often includes descriptions of the Operating System and Device Type that the Browser/Agent is running on.<img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif" width="35px"></i></b></h2>
+> This tool is intended for cybersecurity purposes only. Unauthorized use or attempts to crack Facebook IDs or user agents without proper consent is illegal and may result in severe legal penalties. Use this tool responsibly and ensure compliance with all applicable laws and ethical guidelines..<img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif" width="35px"></i></b></h2>
 
 ### Tested On :
 
