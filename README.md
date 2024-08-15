@@ -50,7 +50,7 @@ rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull
 </p>
 
 # Report bugs
-If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: vincenthilario56@gmail.com">Gmail</a> or Open an issue via github.
+If you notice issues while installing this tool or running this tool kindly mail to me at vincenthilario56@gmail.com" or Open an issue via github.
 
 ### Requirements 
 ```
@@ -69,16 +69,6 @@ And some other python packages
 >> apt-get install git python3 python3-pip python python-pip
 ```
 <h2 align="left">Kali Linux/Ubuntu/Parrot os > </h2><br>
-<p align="center"><img src="./image/demo4.png" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo5.png" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo6.png" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo7.png" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo8.png" width="100%"/>
-</p>
 
 ### Languages :
 
