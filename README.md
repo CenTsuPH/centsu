@@ -72,13 +72,13 @@ And some other python packages
 
 ### Languages :
 
-<p align="center"><img src="https://github-readme-stats.vercel.app/api/pin?username=U7P4L-IN&repo=USER-AGENT&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" width="100%"/>
+<p align="center"><img src="[https://github-readme-stats.vercel.app/api/pin?username=U7P4L-IN&repo=USER-AGENT](https://github.com/CenTsuPH/centsu/blob/main/image/450569876_284017268136233_2952239732744643368_n.png)&title_color=fff&icon_color=f9f9f9&text_color=9f9f9f&bg_color=151515" width="100%"/>
 </p>
 
 
 <h2 align="center">LICENSE</h2>
 
-USER-AGENT is released under the MIT license, which grants the following permissions:
+This tool is released under the MIT license, which grants the following permissions:
 - Commercial use
 - Modification
 - Distribution
@@ -91,9 +91,6 @@ For more convoluted language, see the [LICENSE](/LICENSE).
 <p align="center">  <a href="https://t.me/TheU7p4lArmyX"><img width="300" height="100" src="https://i.imgur.com/N7AK7XY.png"></a></p>
 
 </br>
-
-# Report bugs
-If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: lisame0007@gmail.com">Gmail</a> or Open an issue via github.
 
 <h5 align="center"><b>DESCRIPTION</b></h5>
 
