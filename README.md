@@ -40,15 +40,6 @@ AND SEND KEY:
 
 rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python freetool_enc.py
 ```
-<p align="center"><img src="./image/carbon.png" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo1.jpg" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo2.jpg" width="100%"/>
-</p>
-<p align="center"><img src="./image/demo3.jpg" width="100%"/>
-</p>
-
 # Report bugs
 If you notice issues while installing this tool or running this tool kindly mail to me at vincenthilario56@gmail.com" or Open an issue via github.
 
