@@ -97,8 +97,6 @@ This tool is released under the MIT license, which grants the following permissi
 For more convoluted language, see the [LICENSE](/LICENSE).
 </br>
 
-<p align="center">  <a href="https://t.me/TheU7p4lArmyX"><img width="300" height="100" src="https://i.imgur.com/N7AK7XY.png"></a></p>
-
 </br>
 
 <h5 align="center"><b>DESCRIPTION</b></h5>
