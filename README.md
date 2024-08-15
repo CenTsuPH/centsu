@@ -2,7 +2,7 @@
 </p>
 
   <div align="center"></a><a href="https://github.com/U7P4L-IN/USER-AGENT/network/members/"><img src="https://custom-icon-badges.demolab.com/github/forks/U7P4L-IN/USER-AGENT?label=Forks&logo=fork&labelColor=302d41&color=b5e8e0&logoColor=d9e0ee&style=for-the-badge" alt="Forks"></a><a href="https://github.com/U7P4L-IN/USER-AGENT/issues"><img src="https://custom-icon-badges.demolab.com/github/issues/U7P4L-IN/USER-AGENT?label=Issues&labelColor=302d41&color=f5a97f&logoColor=d9e0ee&logo=issue&style=for-the-badge" alt="Issues"/></div>
-  <div align="center"></a><a href="https://github.com/U7P4L-IN/USER-AGENT/pull"><img src="https://custom-icon-badges.demolab.com/github/issues-pr/U7P4L-IN/USER-AGENT?&label=Pull%20Requests&labelColor=302d41&color=ddb6f2&logoColor=d9e0ee&logo=git-pull-request&style=for-the-badge" alt="PRs"/></a><a href="https://github.com/U7P4L-IN/USER-AGENT/archive/refs/heads/master.zip"><img src="https://custom-icon-badges.demolab.com/github/languages/code-size/U7P4L-IN/USER-AGENT?label=Download&logo=download&labelColor=302d41&color=b7bdf8&logoColor=d9e0ee&style=for-the-badge" alt="Download .zip"></a></div></br>
+  <div align="center"></a><a href="https://github.com/U7P4L-IN/USER-AGENT/pull"><img src="https://custom-icon-badges.demolab.com/github/issues-pr/U7P4L-IN/USER-AGENT?&label=Pull%20Requests&labelColor=302d41&color=ddb6f2&logoColor=d9e0ee&logo=git-pull-request&style=for-the-badge" 
 
 </br><h2 align="left">Language > </h2><br>
 <p align="center"><img src="https://img.shields.io/badge/Python-FFDD00?style=for-the-badge&logo=python&logoColor=blue"/>
