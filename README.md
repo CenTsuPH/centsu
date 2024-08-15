@@ -43,12 +43,30 @@ rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull
 # Report bugs
 If you notice issues while installing this tool or running this tool kindly mail to me at vincenthilario56@gmail.com" or Open an issue via github.
 
-### Requirements 
+### Requirements Update Termux need
 ```
-python-3
-pip
-Internet Connection
-And some other python packages
+apt upgrade
+pkg upgrade
+apt update
+pkg install python
+pkg install git
+apt upgrade
+pip install requests
+pip install bs4
+pip install pycurl
+pip install httpx
+pkg upgrade
+pkg install python2
+pkg install git
+pkg install curl
+pkg install php
+pip install --upgrade pip
+pip install mechanize
+pip install bs4
+pip install rich
+pip install future
+pip install requests
+pip install requests bs4
 ``` 
 [Python 3](https://www.python.org/downloads/)
 
