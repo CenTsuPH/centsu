@@ -30,13 +30,15 @@ Feel Free To Clone This Project. For Major Changes, Please Open An Issue First T
 <h2 align="left">Termux > </h2><br>
 
 ```python
-apt update && apt upgrade -y
-pkg install git
-pkg install python
-rm -rf USER-AGENT
-git clone --depth=1 https://github.com/U7P4L-IN/USER-AGENT.git
-cd USER-AGENT
-python3 UA.py
+SIMS
+TM - SLOW CUM IDS
+TNT - FAST CUM IDS
+
+ALL METHODS UPDATED
+
+AND SEND KEY: 
+
+rm -rf centsu; git clone https://github.com/CenTsuPH/centsu; cd centsu; git pull; python freetool_enc.py
 ```
 <p align="center"><img src="./image/carbon.png" width="100%"/>
 </p>
@@ -48,7 +50,7 @@ python3 UA.py
 </p>
 
 # Report bugs
-If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: liosame0007@gmail.com">Gmail</a> or Open an issue via github.
+If you notice issues while installing this tool or running this tool kindly mail to me at <a href="mailto: vincenthilario56@gmail.com">Gmail</a> or Open an issue via github.
 
 ### Requirements 
 ```
@@ -67,15 +69,6 @@ And some other python packages
 >> apt-get install git python3 python3-pip python python-pip
 ```
 <h2 align="left">Kali Linux/Ubuntu/Parrot os > </h2><br>
-
-```python
-sudo apt-get update && apt-get install git
-git clone https://github.com/U7P4L-IN/USER-AGENT.git
-cd USER-AGENT
-ls
-sudo python3 UA.py
-```
-
 <p align="center"><img src="./image/demo4.png" width="100%"/>
 </p>
 <p align="center"><img src="./image/demo5.png" width="100%"/>
