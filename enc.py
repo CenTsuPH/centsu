@@ -1,2 +1,2 @@
 import os
-import freecent
+import solo1
