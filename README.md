@@ -52,7 +52,7 @@ rm -rf centsu
 git clone https://github.com/CenTsuPH/centsu
 cd centsu
 git pull
-python freetool_enc.py
+python enc.py
 ```
 
 # Report bugs
