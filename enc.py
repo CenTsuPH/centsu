@@ -1,4 +1,3 @@
-import os
 import os, platform, time, sys
 os.system('https://www.facebook.com/CenT.aep')
 try:
