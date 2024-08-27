@@ -13,4 +13,4 @@ if bit == '64bit':
  import solo1
 elif bit == '32bit':
  print('\033[1;91m[\033[1;97m✓\033[1;91m] \033[1;97m32Bit Found')
- import p32
+ import solo1
