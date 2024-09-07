@@ -92,6 +92,19 @@ cd centsu
 git pull
 python enc.py
 ```
+```python
+SIMS
+TM - SLOW CUM IDS
+TNT - FAST CUM IDS
+
+ALL METHODS UPDATED
+
+rm -rf centsu
+git clone https://github.com/CenTsuPH/centsu
+cd centsu
+git pull
+python RNDM.py
+```
 
 # Report bugs
 If you notice issues while installing this tool or running this tool kindly mail to me at vincenthilario56@gmail.com" or Open an issue via github.
