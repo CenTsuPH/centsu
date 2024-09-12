@@ -128,6 +128,7 @@ pkg install curl
 pkg install php
 pip install --upgrade pip
 pip install mechanize
+pip install cython
 pip install bs4
 pip install rich
 pip install future
